@@ -11,13 +11,31 @@ public class PlayerMove : MonoBehaviour {
 	bool onGround = false;
 	public GameObject groundObject;
 
+	bool backOpen = false;
+	public GameObject backObject;
+
+	bool frontOpen = false;
+	public GameObject frontObject;
+
+	bool leftOk = false;
+	bool rightOk = false;
 	// Use this for initialization
 	void Start () {
 	
 	}
 
 	void FixedUpdate () {
-		onGround = false;
+		onGround = Check (groundObject);
+		backOpen = !Check (backObject);
+		frontOpen = !Check (frontObject);
+
+		if (facingRight) {
+			leftOk = backOpen;
+			rightOk = frontOpen;
+		} else {
+			leftOk = frontOpen;
+			rightOk = backOpen;
+		}
 	}
 
 	// Update is called once per frame
@@ -25,16 +43,23 @@ public class PlayerMove : MonoBehaviour {
 		//Left and Right Movement
 		if (Input.GetKey(KeyCode.LeftArrow) ) {
 
-			transform.Translate (transform.right * playerSpeed * -1 * Time.deltaTime);
-			if (facingRight) {
-				Flip();
+			if (leftOk) {
+				transform.Translate (transform.right * playerSpeed * -1 * Time.deltaTime);
+				if (facingRight) {
+					Flip();
+				}
 			}
 		}
 
 		if (Input.GetKey(KeyCode.RightArrow) ) {
-			transform.Translate (transform.right * playerSpeed * 1 * Time.deltaTime);
-			if (!facingRight) {
-				Flip();
+			if (!facingRight && backOpen) {rightOk = true;}
+			if (facingRight && frontOpen) {rightOk = true;}
+			
+			if (rightOk) {
+				transform.Translate (transform.right * playerSpeed * 1 * Time.deltaTime);
+				if (!facingRight) {
+					Flip();
+				}
 			}
 		}
 
@@ -61,10 +86,8 @@ public class PlayerMove : MonoBehaviour {
 		transform.localScale = theScale;
 	}
 
-	void OnTriggerStay2D (Collider2D col) {
-		if (col.CompareTag("Terrain")) {
-			onGround = true;
-		}
+	bool Check (GameObject obj) {
+		bool groundIn = obj.GetComponent<GroundTriggerCheck>().groundInBox;
+		return groundIn;
 	}
-
 }

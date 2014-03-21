@@ -2,11 +2,11 @@
 using System.Collections;
 
 public class GroundTriggerCheck : MonoBehaviour {
-	public bool groundInBox = false;
+	public bool groundInBox;
 
 	// Use this for initialization
 	void Start () {
-	
+		groundInBox = false;
 	}
 	
 	// Update is called once per frame
@@ -14,10 +14,14 @@ public class GroundTriggerCheck : MonoBehaviour {
 		//Debug.Log (groundInBox);
 	}
 
-	void OnTriggerStay2D (Collider2D col) {
+	void OnTriggerEnter2D (Collider2D col) {
 		if (col.CompareTag ("Terrain")) {
 			groundInBox = true;
-		} else {
+		}
+	}
+
+	void OnTriggerExit2D (Collider2D col) {
+		if (col.CompareTag ("Terrain")) {
 			groundInBox = false;
 		}
 	}
