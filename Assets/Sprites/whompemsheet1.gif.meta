@@ -1,0 +1,688 @@
+fileFormatVersion: 2
+guid: 0e4774c3c9ee97f46b98b6d2dbf9826f
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 12
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: whompemsheet1_0
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 300
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 300
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 300
+        width: 23
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_3
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 300
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_4
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 300
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_5
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 266
+        width: 23
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_6
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 266
+        width: 22
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_7
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 266
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_8
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 266
+        width: 23
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_9
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 266
+        width: 23
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_10
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 266
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_11
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 266
+        width: 22
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_12
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 266
+        width: 23
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_13
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 233
+        width: 22
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_14
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 233
+        width: 22
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_15
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 233
+        width: 22
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_16
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 233
+        width: 23
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_17
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 233
+        width: 23
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_18
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 233
+        width: 22
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_19
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 233
+        width: 22
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_20
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 233
+        width: 22
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_21
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 200
+        width: 32
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_22
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 200
+        width: 32
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_23
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 200
+        width: 32
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_24
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 200
+        width: 31
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_25
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 200
+        width: 31
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_26
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 200
+        width: 32
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_27
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 200
+        width: 32
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_28
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 200
+        width: 32
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_29
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 167
+        width: 38
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_30
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 167
+        width: 38
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_31
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 167
+        width: 38
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_32
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 167
+        width: 39
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_33
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 167
+        width: 39
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_34
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 167
+        width: 38
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_35
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 167
+        width: 38
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_36
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 167
+        width: 38
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_37
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 134
+        width: 46
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_38
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 134
+        width: 46
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_39
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 134
+        width: 46
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_40
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 134
+        width: 47
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_41
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 134
+        width: 47
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_42
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 134
+        width: 46
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_43
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 134
+        width: 46
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_44
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 134
+        width: 46
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_45
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 101
+        width: 54
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_46
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 101
+        width: 54
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_47
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 101
+        width: 54
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_48
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 101
+        width: 55
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_49
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 101
+        width: 55
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_50
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 101
+        width: 54
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_51
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 101
+        width: 54
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_52
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 101
+        width: 54
+        height: 31
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_53
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 75
+        width: 55
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_54
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 75
+        width: 47
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_55
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 75
+        width: 39
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_56
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 75
+        width: 31
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_57
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 75
+        width: 23
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_58
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 75
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_59
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 75
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_60
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 75
+        width: 23
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_61
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 75
+        width: 31
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_62
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 75
+        width: 39
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_63
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 75
+        width: 47
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_64
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 75
+        width: 55
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_65
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 33
+        width: 19
+        height: 33
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_66
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 33
+        width: 21
+        height: 40
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_67
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 33
+        width: 21
+        height: 40
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_68
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 33
+        width: 19
+        height: 33
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_69
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1
+        width: 24
+        height: 30
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: whompemsheet1_70
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1
+        width: 24
+        height: 30
+      alignment: 7
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 
