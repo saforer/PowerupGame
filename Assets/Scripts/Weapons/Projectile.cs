@@ -31,7 +31,6 @@ public class Projectile : MonoBehaviour {
 		if (playerBullet) {
 			if (col.CompareTag("Enemy")) {
 				//Hit Enemy
-				Debug.Log ("Hit Enemy, DO DAMAGE NOW");
 				col.gameObject.GetComponent<EnemyHealth>().Damage(damageAmount);
 				Destroy(gameObject);
 			}

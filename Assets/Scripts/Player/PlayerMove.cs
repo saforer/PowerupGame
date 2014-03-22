@@ -72,10 +72,10 @@ public class PlayerMove : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.Z)) {
 			onGround = Check (groundObject);
 
-			//if (onGround) {
+			if (onGround) {
 				rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x,jumpPower);
 				jumping = true;
-			//}
+			}
 		}
 
 		if (Input.GetKeyUp (KeyCode.Z) && jumping && rigidbody2D.velocity.y > 0) {

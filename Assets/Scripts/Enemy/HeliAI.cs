@@ -59,4 +59,7 @@ public class HeliAI : MonoBehaviour {
 		reticuleInstance = Instantiate( reticule, targetPos, Quaternion.identity)as GameObject;
 	}
 
+	void DieScript() {
+		Destroy (reticuleInstance);
+	}
 }
