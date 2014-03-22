@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class GroundTriggerCheck : MonoBehaviour {
+	[HideInInspector]
 	public bool groundInBox;
 
 	// Use this for initialization

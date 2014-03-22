@@ -4,7 +4,7 @@ using System.Collections;
 public class PlayerMove : MonoBehaviour {
 	[HideInInspector]
 	public bool facingRight = true;
-	float playerSpeed = 20;
+	float playerSpeed = 15;
 	bool jumping = false;
 	float jumpPower = 20;
 
@@ -32,7 +32,7 @@ public class PlayerMove : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		//Left and Right Movement
-		if (Input.GetKey(KeyCode.LeftArrow) ) {
+		if (Input.GetKey(KeyCode.LeftArrow)) {
 			backOpen = !Check (backObject);
 			frontOpen = !Check (frontObject);
 			
@@ -43,14 +43,14 @@ public class PlayerMove : MonoBehaviour {
 			}
 
 			if (leftOk) {
-				transform.Translate (transform.right * playerSpeed * -1 * Time.deltaTime);
+				transform.Translate (transform.right * playerSpeed * -1 * Time.fixedDeltaTime);
 				if (facingRight) {
 					Flip();
 				}
 			}
 		}
 
-		if (Input.GetKey(KeyCode.RightArrow) ) {
+		if (Input.GetKey(KeyCode.RightArrow)) {
 			backOpen = !Check (backObject);
 			frontOpen = !Check (frontObject);
 			
@@ -61,7 +61,7 @@ public class PlayerMove : MonoBehaviour {
 			}
 
 			if (rightOk) {
-				transform.Translate (transform.right * playerSpeed * 1 * Time.deltaTime);
+				transform.Translate (transform.right * playerSpeed * 1 * Time.fixedDeltaTime);
 				if (!facingRight) {
 					Flip();
 				}
@@ -72,10 +72,10 @@ public class PlayerMove : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.Z)) {
 			onGround = Check (groundObject);
 
-			if (onGround) {
+			//if (onGround) {
 				rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x,jumpPower);
 				jumping = true;
-			}
+			//}
 		}
 
 		if (Input.GetKeyUp (KeyCode.Z) && jumping && rigidbody2D.velocity.y > 0) {
