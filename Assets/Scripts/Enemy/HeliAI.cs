@@ -9,7 +9,7 @@ public class HeliAI : MonoBehaviour {
 	Vector3 desiredVelocity;
 	GameObject reticuleInstance;
 	bool targeted;
-	
+	bool beginMotion = false;
 	
 	const float count = 4;
 	float countdown = 0;
@@ -24,36 +24,39 @@ public class HeliAI : MonoBehaviour {
 		countdown -= Time.fixedDeltaTime;
 
 		if ((countdown <= 4 && countdown > 2) && !targeted) {
-			target();
-			//Draw a sprite at the location showing where the player was when he got scanned
-			reticuleInstance = Instantiate( reticule, targetPos, Quaternion.identity)as GameObject;
+			DrawReticule();
 
 		}
 		
 		if (countdown <= 1 && countdown > 0) {
+			if (!beginMotion) {
+				beginningPos = transform.position;
+				beginMotion = true;
+			}
 
+
+			desiredVelocity = (targetPos - beginningPos);
 
 			transform.position += (desiredVelocity * Time.fixedDeltaTime);
+
 		}
 		
 		if (countdown <= 0) {
 			countdown = count;
 			targeted = false;
+			beginMotion = false;
 			Destroy(reticuleInstance);
 		}
 		
 	}
-	
-	void target () {
-		beginningPos = transform.position;
-		
+
+	void DrawReticule() {
+		targeted = true;
+
 		targetPos = player.transform.position;
 		targetPos.y += 1;
 
-		desiredVelocity = (targetPos - beginningPos);
-		
-
-		
-		targeted = true;
+		reticuleInstance = Instantiate( reticule, targetPos, Quaternion.identity)as GameObject;
 	}
+
 }
