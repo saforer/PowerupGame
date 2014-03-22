@@ -12,17 +12,13 @@ public class GroundTriggerCheck : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () {
 		//Debug.Log (groundInBox);
+		groundInBox = false;
 	}
 
-	void OnTriggerEnter2D (Collider2D col) {
+	void OnTriggerStay2D (Collider2D col) {
 		if (col.CompareTag ("Terrain")) {
 			groundInBox = true;
 		}
 	}
 
-	void OnTriggerExit2D (Collider2D col) {
-		if (col.CompareTag ("Terrain")) {
-			groundInBox = false;
-		}
-	}
 }

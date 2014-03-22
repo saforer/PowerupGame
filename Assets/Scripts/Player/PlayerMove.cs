@@ -25,23 +25,22 @@ public class PlayerMove : MonoBehaviour {
 	}
 
 	void FixedUpdate () {
-		onGround = Check (groundObject);
-		backOpen = !Check (backObject);
-		frontOpen = !Check (frontObject);
 
-		if (facingRight) {
-			leftOk = backOpen;
-			rightOk = frontOpen;
-		} else {
-			leftOk = frontOpen;
-			rightOk = backOpen;
-		}
+
 	}
 
 	// Update is called once per frame
 	void Update () {
 		//Left and Right Movement
 		if (Input.GetKey(KeyCode.LeftArrow) ) {
+			backOpen = !Check (backObject);
+			frontOpen = !Check (frontObject);
+			
+			if (facingRight) {
+				leftOk = backOpen;
+			} else {
+				leftOk = frontOpen;
+			}
 
 			if (leftOk) {
 				transform.Translate (transform.right * playerSpeed * -1 * Time.deltaTime);
@@ -52,9 +51,15 @@ public class PlayerMove : MonoBehaviour {
 		}
 
 		if (Input.GetKey(KeyCode.RightArrow) ) {
-			if (!facingRight && backOpen) {rightOk = true;}
-			if (facingRight && frontOpen) {rightOk = true;}
+			backOpen = !Check (backObject);
+			frontOpen = !Check (frontObject);
 			
+			if (facingRight) {
+				rightOk = frontOpen;
+			} else {
+				rightOk = backOpen;
+			}
+
 			if (rightOk) {
 				transform.Translate (transform.right * playerSpeed * 1 * Time.deltaTime);
 				if (!facingRight) {
@@ -64,9 +69,13 @@ public class PlayerMove : MonoBehaviour {
 		}
 
 		//Jump
-		if (Input.GetKeyDown (KeyCode.Z) && onGround) {
-			rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x,jumpPower);
-			jumping = true;
+		if (Input.GetKeyDown (KeyCode.Z)) {
+			onGround = Check (groundObject);
+
+			if (onGround) {
+				rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x,jumpPower);
+				jumping = true;
+			}
 		}
 
 		if (Input.GetKeyUp (KeyCode.Z) && jumping && rigidbody2D.velocity.y > 0) {
