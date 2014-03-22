@@ -25,17 +25,17 @@ public class CameraRailFollow : MonoBehaviour {
 		player = GameObject.FindGameObjectWithTag("Player").transform;
 
 		rail = new Vector2[4] {
-			new Vector2(6.0f,8.0f),
-			new Vector2 (23.8f,8.0f),
-			new Vector2 (28.5f,15.2f),
-			new Vector2 (33.5f,15.8f)};
+			new Vector2 (6.0f,8.0f), //MinXandY
+			new Vector2 (23.8f,8.0f), //MaxXandY
+			new Vector2 (28.5f,15.2f), //MinXandY trigger
+			new Vector2 (33.5f,15.9f)}; //MaxXandY trigger
 
 		railList.Add(rail);
 
 		rail = new Vector2[4] {
 			new Vector2(23.5f,24f),
 			new Vector2 (23.5f,24f),
-			new Vector2 (13.5f,16f),
+			new Vector2 (13.5f,15.9f),
 			new Vector2 (33.5f,31.5f)};
 
 		railList.Add (rail);
