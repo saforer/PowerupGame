@@ -39,9 +39,6 @@ public class CameraRailFollow : MonoBehaviour {
 			new Vector2 (33.5f,31.5f)};
 
 		railList.Add (rail);
-
-		Debug.Log (railList.Count);
-
 	}
 	
 	// Update is called once per frame

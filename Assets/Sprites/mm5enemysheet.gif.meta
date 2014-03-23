@@ -53,7 +53,7 @@ TextureImporter:
         width: 18
         height: 26
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_1
       rect:
         serializedVersion: 2
@@ -62,7 +62,7 @@ TextureImporter:
         width: 16
         height: 25
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_2
       rect:
         serializedVersion: 2
@@ -71,7 +71,7 @@ TextureImporter:
         width: 16
         height: 26
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_3
       rect:
         serializedVersion: 2
@@ -80,7 +80,7 @@ TextureImporter:
         width: 16
         height: 29
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_4
       rect:
         serializedVersion: 2
@@ -89,7 +89,7 @@ TextureImporter:
         width: 16
         height: 33
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_5
       rect:
         serializedVersion: 2
@@ -98,7 +98,7 @@ TextureImporter:
         width: 16
         height: 37
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_6
       rect:
         serializedVersion: 2
@@ -107,7 +107,7 @@ TextureImporter:
         width: 16
         height: 41
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_7
       rect:
         serializedVersion: 2
@@ -116,7 +116,7 @@ TextureImporter:
         width: 16
         height: 45
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_8
       rect:
         serializedVersion: 2
@@ -125,7 +125,7 @@ TextureImporter:
         width: 16
         height: 49
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_9
       rect:
         serializedVersion: 2
@@ -134,7 +134,7 @@ TextureImporter:
         width: 16
         height: 53
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_10
       rect:
         serializedVersion: 2
@@ -143,7 +143,7 @@ TextureImporter:
         width: 16
         height: 57
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_11
       rect:
         serializedVersion: 2
@@ -152,7 +152,7 @@ TextureImporter:
         width: 21
         height: 27
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_12
       rect:
         serializedVersion: 2
@@ -161,7 +161,7 @@ TextureImporter:
         width: 19
         height: 25
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_13
       rect:
         serializedVersion: 2
@@ -170,7 +170,7 @@ TextureImporter:
         width: 21
         height: 27
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_14
       rect:
         serializedVersion: 2
@@ -179,7 +179,7 @@ TextureImporter:
         width: 21
         height: 22
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_15
       rect:
         serializedVersion: 2
@@ -188,7 +188,7 @@ TextureImporter:
         width: 21
         height: 22
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_16
       rect:
         serializedVersion: 2
@@ -197,7 +197,7 @@ TextureImporter:
         width: 21
         height: 25
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_17
       rect:
         serializedVersion: 2
@@ -206,7 +206,7 @@ TextureImporter:
         width: 21
         height: 27
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_18
       rect:
         serializedVersion: 2
@@ -215,7 +215,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_19
       rect:
         serializedVersion: 2
@@ -224,7 +224,7 @@ TextureImporter:
         width: 16
         height: 34
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_20
       rect:
         serializedVersion: 2
@@ -233,7 +233,7 @@ TextureImporter:
         width: 16
         height: 34
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_21
       rect:
         serializedVersion: 2
@@ -242,7 +242,7 @@ TextureImporter:
         width: 16
         height: 34
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_22
       rect:
         serializedVersion: 2
@@ -251,7 +251,7 @@ TextureImporter:
         width: 24
         height: 34
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_23
       rect:
         serializedVersion: 2
@@ -260,7 +260,7 @@ TextureImporter:
         width: 6
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_24
       rect:
         serializedVersion: 2
@@ -269,7 +269,7 @@ TextureImporter:
         width: 8
         height: 4
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_25
       rect:
         serializedVersion: 2
@@ -278,7 +278,7 @@ TextureImporter:
         width: 24
         height: 5
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_26
       rect:
         serializedVersion: 2
@@ -287,7 +287,7 @@ TextureImporter:
         width: 6
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_27
       rect:
         serializedVersion: 2
@@ -296,7 +296,7 @@ TextureImporter:
         width: 8
         height: 4
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_28
       rect:
         serializedVersion: 2
@@ -305,7 +305,7 @@ TextureImporter:
         width: 29
         height: 5
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_29
       rect:
         serializedVersion: 2
@@ -313,8 +313,8 @@ TextureImporter:
         y: 1144
         width: 63
         height: 24
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .619000018, y: 0}
     - name: mm5enemysheet_30
       rect:
         serializedVersion: 2
@@ -322,8 +322,8 @@ TextureImporter:
         y: 1144
         width: 50
         height: 50
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .519999981, y: 0}
     - name: mm5enemysheet_31
       rect:
         serializedVersion: 2
@@ -331,7 +331,7 @@ TextureImporter:
         y: 1144
         width: 24
         height: 64
-      alignment: 7
+      alignment: 6
       pivot: {x: 0, y: 0}
     - name: mm5enemysheet_32
       rect:
@@ -340,7 +340,7 @@ TextureImporter:
         y: 1144
         width: 50
         height: 50
-      alignment: 7
+      alignment: 6
       pivot: {x: 0, y: 0}
     - name: mm5enemysheet_33
       rect:
@@ -349,7 +349,7 @@ TextureImporter:
         y: 1144
         width: 63
         height: 24
-      alignment: 7
+      alignment: 6
       pivot: {x: 0, y: 0}
     - name: mm5enemysheet_34
       rect:
@@ -359,7 +359,7 @@ TextureImporter:
         width: 63
         height: 24
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_35
       rect:
         serializedVersion: 2
@@ -368,7 +368,7 @@ TextureImporter:
         width: 50
         height: 50
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_36
       rect:
         serializedVersion: 2
@@ -377,7 +377,7 @@ TextureImporter:
         width: 24
         height: 64
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_37
       rect:
         serializedVersion: 2
@@ -386,7 +386,7 @@ TextureImporter:
         width: 50
         height: 50
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_38
       rect:
         serializedVersion: 2
@@ -395,7 +395,7 @@ TextureImporter:
         width: 63
         height: 24
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_39
       rect:
         serializedVersion: 2
@@ -404,7 +404,7 @@ TextureImporter:
         width: 8
         height: 14
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_40
       rect:
         serializedVersion: 2
@@ -413,7 +413,7 @@ TextureImporter:
         width: 21
         height: 6
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_41
       rect:
         serializedVersion: 2
@@ -422,7 +422,7 @@ TextureImporter:
         width: 48
         height: 60
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_42
       rect:
         serializedVersion: 2
@@ -431,7 +431,7 @@ TextureImporter:
         width: 8
         height: 14
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_43
       rect:
         serializedVersion: 2
@@ -440,7 +440,7 @@ TextureImporter:
         width: 6
         height: 5
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_44
       rect:
         serializedVersion: 2
@@ -449,7 +449,7 @@ TextureImporter:
         width: 43
         height: 55
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_45
       rect:
         serializedVersion: 2
@@ -458,7 +458,7 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_46
       rect:
         serializedVersion: 2
@@ -467,7 +467,7 @@ TextureImporter:
         width: 43
         height: 56
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_47
       rect:
         serializedVersion: 2
@@ -476,7 +476,7 @@ TextureImporter:
         width: 43
         height: 55
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_48
       rect:
         serializedVersion: 2
@@ -485,7 +485,7 @@ TextureImporter:
         width: 43
         height: 56
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_49
       rect:
         serializedVersion: 2
@@ -494,7 +494,7 @@ TextureImporter:
         width: 21
         height: 20
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_50
       rect:
         serializedVersion: 2
@@ -503,7 +503,7 @@ TextureImporter:
         width: 21
         height: 28
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_51
       rect:
         serializedVersion: 2
@@ -512,7 +512,7 @@ TextureImporter:
         width: 22
         height: 29
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_52
       rect:
         serializedVersion: 2
@@ -521,7 +521,7 @@ TextureImporter:
         width: 24
         height: 29
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_53
       rect:
         serializedVersion: 2
@@ -530,7 +530,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_54
       rect:
         serializedVersion: 2
@@ -539,7 +539,7 @@ TextureImporter:
         width: 21
         height: 20
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_55
       rect:
         serializedVersion: 2
@@ -548,7 +548,7 @@ TextureImporter:
         width: 21
         height: 28
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_56
       rect:
         serializedVersion: 2
@@ -557,7 +557,7 @@ TextureImporter:
         width: 22
         height: 29
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_57
       rect:
         serializedVersion: 2
@@ -566,7 +566,7 @@ TextureImporter:
         width: 24
         height: 29
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_58
       rect:
         serializedVersion: 2
@@ -575,7 +575,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_59
       rect:
         serializedVersion: 2
@@ -584,7 +584,7 @@ TextureImporter:
         width: 15
         height: 4
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_60
       rect:
         serializedVersion: 2
@@ -593,7 +593,7 @@ TextureImporter:
         width: 21
         height: 12
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_61
       rect:
         serializedVersion: 2
@@ -602,7 +602,7 @@ TextureImporter:
         width: 15
         height: 4
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_62
       rect:
         serializedVersion: 2
@@ -611,7 +611,7 @@ TextureImporter:
         width: 21
         height: 12
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_63
       rect:
         serializedVersion: 2
@@ -620,7 +620,7 @@ TextureImporter:
         width: 23
         height: 27
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_64
       rect:
         serializedVersion: 2
@@ -629,7 +629,7 @@ TextureImporter:
         width: 27
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_65
       rect:
         serializedVersion: 2
@@ -638,7 +638,7 @@ TextureImporter:
         width: 25
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_66
       rect:
         serializedVersion: 2
@@ -647,7 +647,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_67
       rect:
         serializedVersion: 2
@@ -656,7 +656,7 @@ TextureImporter:
         width: 23
         height: 27
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_68
       rect:
         serializedVersion: 2
@@ -665,7 +665,7 @@ TextureImporter:
         width: 27
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_69
       rect:
         serializedVersion: 2
@@ -674,7 +674,7 @@ TextureImporter:
         width: 25
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_70
       rect:
         serializedVersion: 2
@@ -683,7 +683,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_71
       rect:
         serializedVersion: 2
@@ -692,7 +692,7 @@ TextureImporter:
         width: 23
         height: 27
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_72
       rect:
         serializedVersion: 2
@@ -701,7 +701,7 @@ TextureImporter:
         width: 27
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_73
       rect:
         serializedVersion: 2
@@ -710,7 +710,7 @@ TextureImporter:
         width: 25
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_74
       rect:
         serializedVersion: 2
@@ -719,7 +719,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_75
       rect:
         serializedVersion: 2
@@ -728,7 +728,7 @@ TextureImporter:
         width: 16
         height: 14
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_76
       rect:
         serializedVersion: 2
@@ -737,7 +737,7 @@ TextureImporter:
         width: 16
         height: 20
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_77
       rect:
         serializedVersion: 2
@@ -746,7 +746,7 @@ TextureImporter:
         width: 16
         height: 14
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_78
       rect:
         serializedVersion: 2
@@ -755,7 +755,7 @@ TextureImporter:
         width: 16
         height: 20
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_79
       rect:
         serializedVersion: 2
@@ -764,7 +764,7 @@ TextureImporter:
         width: 16
         height: 14
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_80
       rect:
         serializedVersion: 2
@@ -773,7 +773,7 @@ TextureImporter:
         width: 16
         height: 20
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_81
       rect:
         serializedVersion: 2
@@ -782,7 +782,7 @@ TextureImporter:
         width: 16
         height: 14
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_82
       rect:
         serializedVersion: 2
@@ -791,7 +791,7 @@ TextureImporter:
         width: 16
         height: 20
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_83
       rect:
         serializedVersion: 2
@@ -800,7 +800,7 @@ TextureImporter:
         width: 16
         height: 14
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_84
       rect:
         serializedVersion: 2
@@ -809,7 +809,7 @@ TextureImporter:
         width: 16
         height: 20
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_85
       rect:
         serializedVersion: 2
@@ -818,7 +818,7 @@ TextureImporter:
         width: 24
         height: 29
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_86
       rect:
         serializedVersion: 2
@@ -827,7 +827,7 @@ TextureImporter:
         width: 22
         height: 29
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_87
       rect:
         serializedVersion: 2
@@ -836,7 +836,7 @@ TextureImporter:
         width: 24
         height: 29
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_88
       rect:
         serializedVersion: 2
@@ -845,7 +845,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_89
       rect:
         serializedVersion: 2
@@ -854,7 +854,7 @@ TextureImporter:
         width: 24
         height: 23
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_90
       rect:
         serializedVersion: 2
@@ -863,7 +863,7 @@ TextureImporter:
         width: 24
         height: 23
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_91
       rect:
         serializedVersion: 2
@@ -872,7 +872,7 @@ TextureImporter:
         width: 24
         height: 28
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_92
       rect:
         serializedVersion: 2
@@ -881,7 +881,7 @@ TextureImporter:
         width: 24
         height: 36
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_93
       rect:
         serializedVersion: 2
@@ -890,7 +890,7 @@ TextureImporter:
         width: 24
         height: 23
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_94
       rect:
         serializedVersion: 2
@@ -899,7 +899,7 @@ TextureImporter:
         width: 24
         height: 23
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_95
       rect:
         serializedVersion: 2
@@ -908,7 +908,7 @@ TextureImporter:
         width: 24
         height: 28
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_96
       rect:
         serializedVersion: 2
@@ -917,7 +917,7 @@ TextureImporter:
         width: 24
         height: 36
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_97
       rect:
         serializedVersion: 2
@@ -926,7 +926,7 @@ TextureImporter:
         width: 32
         height: 40
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_98
       rect:
         serializedVersion: 2
@@ -935,7 +935,7 @@ TextureImporter:
         width: 32
         height: 39
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_99
       rect:
         serializedVersion: 2
@@ -944,7 +944,7 @@ TextureImporter:
         width: 32
         height: 40
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_100
       rect:
         serializedVersion: 2
@@ -953,7 +953,7 @@ TextureImporter:
         width: 15
         height: 14
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_101
       rect:
         serializedVersion: 2
@@ -962,7 +962,7 @@ TextureImporter:
         width: 15
         height: 13
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_102
       rect:
         serializedVersion: 2
@@ -971,7 +971,7 @@ TextureImporter:
         width: 14
         height: 14
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_103
       rect:
         serializedVersion: 2
@@ -980,7 +980,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_104
       rect:
         serializedVersion: 2
@@ -989,7 +989,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_105
       rect:
         serializedVersion: 2
@@ -998,7 +998,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_106
       rect:
         serializedVersion: 2
@@ -1007,7 +1007,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_107
       rect:
         serializedVersion: 2
@@ -1016,7 +1016,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_108
       rect:
         serializedVersion: 2
@@ -1025,7 +1025,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_109
       rect:
         serializedVersion: 2
@@ -1034,7 +1034,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_110
       rect:
         serializedVersion: 2
@@ -1043,7 +1043,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_111
       rect:
         serializedVersion: 2
@@ -1052,7 +1052,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_112
       rect:
         serializedVersion: 2
@@ -1061,7 +1061,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_113
       rect:
         serializedVersion: 2
@@ -1070,7 +1070,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_114
       rect:
         serializedVersion: 2
@@ -1079,7 +1079,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_115
       rect:
         serializedVersion: 2
@@ -1088,7 +1088,7 @@ TextureImporter:
         width: 31
         height: 27
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_116
       rect:
         serializedVersion: 2
@@ -1097,7 +1097,7 @@ TextureImporter:
         width: 31
         height: 27
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_117
       rect:
         serializedVersion: 2
@@ -1106,7 +1106,7 @@ TextureImporter:
         width: 30
         height: 27
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_118
       rect:
         serializedVersion: 2
@@ -1115,7 +1115,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_119
       rect:
         serializedVersion: 2
@@ -1124,7 +1124,7 @@ TextureImporter:
         width: 31
         height: 27
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_120
       rect:
         serializedVersion: 2
@@ -1133,7 +1133,7 @@ TextureImporter:
         width: 31
         height: 27
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_121
       rect:
         serializedVersion: 2
@@ -1142,7 +1142,7 @@ TextureImporter:
         width: 30
         height: 27
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_122
       rect:
         serializedVersion: 2
@@ -1151,7 +1151,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_123
       rect:
         serializedVersion: 2
@@ -1160,7 +1160,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_124
       rect:
         serializedVersion: 2
@@ -1169,7 +1169,7 @@ TextureImporter:
         width: 21
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_125
       rect:
         serializedVersion: 2
@@ -1178,7 +1178,7 @@ TextureImporter:
         width: 21
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_126
       rect:
         serializedVersion: 2
@@ -1187,7 +1187,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_127
       rect:
         serializedVersion: 2
@@ -1196,7 +1196,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_128
       rect:
         serializedVersion: 2
@@ -1205,7 +1205,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_129
       rect:
         serializedVersion: 2
@@ -1214,7 +1214,7 @@ TextureImporter:
         width: 21
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_130
       rect:
         serializedVersion: 2
@@ -1223,7 +1223,7 @@ TextureImporter:
         width: 18
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_131
       rect:
         serializedVersion: 2
@@ -1232,7 +1232,7 @@ TextureImporter:
         width: 19
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_132
       rect:
         serializedVersion: 2
@@ -1241,7 +1241,7 @@ TextureImporter:
         width: 20
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_133
       rect:
         serializedVersion: 2
@@ -1250,7 +1250,7 @@ TextureImporter:
         width: 17
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_134
       rect:
         serializedVersion: 2
@@ -1259,7 +1259,7 @@ TextureImporter:
         width: 17
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_135
       rect:
         serializedVersion: 2
@@ -1268,7 +1268,7 @@ TextureImporter:
         width: 17
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_136
       rect:
         serializedVersion: 2
@@ -1277,7 +1277,7 @@ TextureImporter:
         width: 17
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_137
       rect:
         serializedVersion: 2
@@ -1286,7 +1286,7 @@ TextureImporter:
         width: 17
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_138
       rect:
         serializedVersion: 2
@@ -1295,7 +1295,7 @@ TextureImporter:
         width: 17
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_139
       rect:
         serializedVersion: 2
@@ -1304,7 +1304,7 @@ TextureImporter:
         width: 17
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_140
       rect:
         serializedVersion: 2
@@ -1313,7 +1313,7 @@ TextureImporter:
         width: 17
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_141
       rect:
         serializedVersion: 2
@@ -1322,7 +1322,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_142
       rect:
         serializedVersion: 2
@@ -1331,7 +1331,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_143
       rect:
         serializedVersion: 2
@@ -1340,7 +1340,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_144
       rect:
         serializedVersion: 2
@@ -1349,7 +1349,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_145
       rect:
         serializedVersion: 2
@@ -1358,7 +1358,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_146
       rect:
         serializedVersion: 2
@@ -1367,7 +1367,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_147
       rect:
         serializedVersion: 2
@@ -1376,7 +1376,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_148
       rect:
         serializedVersion: 2
@@ -1385,7 +1385,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_149
       rect:
         serializedVersion: 2
@@ -1394,7 +1394,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_150
       rect:
         serializedVersion: 2
@@ -1403,7 +1403,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_151
       rect:
         serializedVersion: 2
@@ -1412,7 +1412,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_152
       rect:
         serializedVersion: 2
@@ -1421,7 +1421,7 @@ TextureImporter:
         width: 7
         height: 7
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_153
       rect:
         serializedVersion: 2
@@ -1430,7 +1430,7 @@ TextureImporter:
         width: 6
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_154
       rect:
         serializedVersion: 2
@@ -1439,7 +1439,7 @@ TextureImporter:
         width: 8
         height: 9
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_155
       rect:
         serializedVersion: 2
@@ -1448,7 +1448,7 @@ TextureImporter:
         width: 8
         height: 9
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_156
       rect:
         serializedVersion: 2
@@ -1457,7 +1457,7 @@ TextureImporter:
         width: 8
         height: 9
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_157
       rect:
         serializedVersion: 2
@@ -1466,7 +1466,7 @@ TextureImporter:
         width: 8
         height: 9
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_158
       rect:
         serializedVersion: 2
@@ -1475,7 +1475,7 @@ TextureImporter:
         width: 11
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_159
       rect:
         serializedVersion: 2
@@ -1484,7 +1484,7 @@ TextureImporter:
         width: 11
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_160
       rect:
         serializedVersion: 2
@@ -1493,7 +1493,7 @@ TextureImporter:
         width: 14
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_161
       rect:
         serializedVersion: 2
@@ -1502,7 +1502,7 @@ TextureImporter:
         width: 14
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_162
       rect:
         serializedVersion: 2
@@ -1511,7 +1511,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_163
       rect:
         serializedVersion: 2
@@ -1520,7 +1520,7 @@ TextureImporter:
         width: 10
         height: 4
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_164
       rect:
         serializedVersion: 2
@@ -1529,7 +1529,7 @@ TextureImporter:
         width: 10
         height: 4
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_165
       rect:
         serializedVersion: 2
@@ -1538,7 +1538,7 @@ TextureImporter:
         width: 16
         height: 13
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_166
       rect:
         serializedVersion: 2
@@ -1547,7 +1547,7 @@ TextureImporter:
         width: 16
         height: 10
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_167
       rect:
         serializedVersion: 2
@@ -1556,7 +1556,7 @@ TextureImporter:
         width: 16
         height: 10
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_168
       rect:
         serializedVersion: 2
@@ -1565,7 +1565,7 @@ TextureImporter:
         width: 16
         height: 10
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_169
       rect:
         serializedVersion: 2
@@ -1574,7 +1574,7 @@ TextureImporter:
         width: 10
         height: 4
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_170
       rect:
         serializedVersion: 2
@@ -1583,7 +1583,7 @@ TextureImporter:
         width: 10
         height: 4
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_171
       rect:
         serializedVersion: 2
@@ -1592,7 +1592,7 @@ TextureImporter:
         width: 16
         height: 13
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_172
       rect:
         serializedVersion: 2
@@ -1601,7 +1601,7 @@ TextureImporter:
         width: 16
         height: 10
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_173
       rect:
         serializedVersion: 2
@@ -1610,7 +1610,7 @@ TextureImporter:
         width: 16
         height: 10
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_174
       rect:
         serializedVersion: 2
@@ -1619,7 +1619,7 @@ TextureImporter:
         width: 16
         height: 10
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_175
       rect:
         serializedVersion: 2
@@ -1628,7 +1628,7 @@ TextureImporter:
         width: 16
         height: 5
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_176
       rect:
         serializedVersion: 2
@@ -1637,7 +1637,7 @@ TextureImporter:
         width: 16
         height: 5
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_177
       rect:
         serializedVersion: 2
@@ -1646,7 +1646,7 @@ TextureImporter:
         width: 16
         height: 5
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_178
       rect:
         serializedVersion: 2
@@ -1655,7 +1655,7 @@ TextureImporter:
         width: 16
         height: 5
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_179
       rect:
         serializedVersion: 2
@@ -1664,7 +1664,7 @@ TextureImporter:
         width: 19
         height: 24
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_180
       rect:
         serializedVersion: 2
@@ -1673,7 +1673,7 @@ TextureImporter:
         width: 17
         height: 24
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_181
       rect:
         serializedVersion: 2
@@ -1682,7 +1682,7 @@ TextureImporter:
         width: 20
         height: 24
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_182
       rect:
         serializedVersion: 2
@@ -1691,7 +1691,7 @@ TextureImporter:
         width: 23
         height: 27
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_183
       rect:
         serializedVersion: 2
@@ -1700,7 +1700,7 @@ TextureImporter:
         width: 22
         height: 27
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_184
       rect:
         serializedVersion: 2
@@ -1709,7 +1709,7 @@ TextureImporter:
         width: 23
         height: 30
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_185
       rect:
         serializedVersion: 2
@@ -1718,7 +1718,7 @@ TextureImporter:
         width: 22
         height: 30
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_186
       rect:
         serializedVersion: 2
@@ -1727,7 +1727,7 @@ TextureImporter:
         width: 23
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_187
       rect:
         serializedVersion: 2
@@ -1736,7 +1736,7 @@ TextureImporter:
         width: 22
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_188
       rect:
         serializedVersion: 2
@@ -1745,7 +1745,7 @@ TextureImporter:
         width: 14
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_189
       rect:
         serializedVersion: 2
@@ -1754,7 +1754,7 @@ TextureImporter:
         width: 61
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_190
       rect:
         serializedVersion: 2
@@ -1763,7 +1763,7 @@ TextureImporter:
         width: 23
         height: 27
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_191
       rect:
         serializedVersion: 2
@@ -1772,7 +1772,7 @@ TextureImporter:
         width: 22
         height: 27
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_192
       rect:
         serializedVersion: 2
@@ -1781,7 +1781,7 @@ TextureImporter:
         width: 23
         height: 30
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_193
       rect:
         serializedVersion: 2
@@ -1790,7 +1790,7 @@ TextureImporter:
         width: 22
         height: 30
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_194
       rect:
         serializedVersion: 2
@@ -1799,7 +1799,7 @@ TextureImporter:
         width: 23
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_195
       rect:
         serializedVersion: 2
@@ -1808,7 +1808,7 @@ TextureImporter:
         width: 22
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_196
       rect:
         serializedVersion: 2
@@ -1817,7 +1817,7 @@ TextureImporter:
         width: 14
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_197
       rect:
         serializedVersion: 2
@@ -1826,7 +1826,7 @@ TextureImporter:
         width: 61
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_198
       rect:
         serializedVersion: 2
@@ -1835,7 +1835,7 @@ TextureImporter:
         width: 26
         height: 29
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_199
       rect:
         serializedVersion: 2
@@ -1844,7 +1844,7 @@ TextureImporter:
         width: 26
         height: 29
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_200
       rect:
         serializedVersion: 2
@@ -1853,7 +1853,7 @@ TextureImporter:
         width: 29
         height: 29
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_201
       rect:
         serializedVersion: 2
@@ -1862,7 +1862,7 @@ TextureImporter:
         width: 12
         height: 6
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_202
       rect:
         serializedVersion: 2
@@ -1871,7 +1871,7 @@ TextureImporter:
         width: 4
         height: 4
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_203
       rect:
         serializedVersion: 2
@@ -1880,7 +1880,7 @@ TextureImporter:
         width: 6
         height: 7
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_204
       rect:
         serializedVersion: 2
@@ -1889,7 +1889,7 @@ TextureImporter:
         width: 9
         height: 12
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_205
       rect:
         serializedVersion: 2
@@ -1898,7 +1898,7 @@ TextureImporter:
         width: 12
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_206
       rect:
         serializedVersion: 2
@@ -1907,7 +1907,7 @@ TextureImporter:
         width: 12
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_207
       rect:
         serializedVersion: 2
@@ -1916,7 +1916,7 @@ TextureImporter:
         width: 12
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_208
       rect:
         serializedVersion: 2
@@ -1925,7 +1925,7 @@ TextureImporter:
         width: 12
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_209
       rect:
         serializedVersion: 2
@@ -1934,7 +1934,7 @@ TextureImporter:
         width: 16
         height: 12
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_210
       rect:
         serializedVersion: 2
@@ -1943,7 +1943,7 @@ TextureImporter:
         width: 16
         height: 12
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_211
       rect:
         serializedVersion: 2
@@ -1952,7 +1952,7 @@ TextureImporter:
         width: 40
         height: 39
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_212
       rect:
         serializedVersion: 2
@@ -1961,7 +1961,7 @@ TextureImporter:
         width: 37
         height: 39
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_213
       rect:
         serializedVersion: 2
@@ -1970,7 +1970,7 @@ TextureImporter:
         width: 40
         height: 44
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_214
       rect:
         serializedVersion: 2
@@ -1979,7 +1979,7 @@ TextureImporter:
         width: 37
         height: 44
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_215
       rect:
         serializedVersion: 2
@@ -1988,7 +1988,7 @@ TextureImporter:
         width: 40
         height: 47
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_216
       rect:
         serializedVersion: 2
@@ -1997,7 +1997,7 @@ TextureImporter:
         width: 37
         height: 47
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_217
       rect:
         serializedVersion: 2
@@ -2006,7 +2006,7 @@ TextureImporter:
         width: 13
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_218
       rect:
         serializedVersion: 2
@@ -2015,7 +2015,7 @@ TextureImporter:
         width: 8
         height: 12
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_219
       rect:
         serializedVersion: 2
@@ -2024,7 +2024,7 @@ TextureImporter:
         width: 8
         height: 13
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_220
       rect:
         serializedVersion: 2
@@ -2033,7 +2033,7 @@ TextureImporter:
         width: 38
         height: 30
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_221
       rect:
         serializedVersion: 2
@@ -2042,7 +2042,7 @@ TextureImporter:
         width: 38
         height: 31
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_222
       rect:
         serializedVersion: 2
@@ -2051,7 +2051,7 @@ TextureImporter:
         width: 60
         height: 24
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_223
       rect:
         serializedVersion: 2
@@ -2060,7 +2060,7 @@ TextureImporter:
         width: 48
         height: 25
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_224
       rect:
         serializedVersion: 2
@@ -2069,7 +2069,7 @@ TextureImporter:
         width: 45
         height: 27
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_225
       rect:
         serializedVersion: 2
@@ -2078,7 +2078,7 @@ TextureImporter:
         width: 38
         height: 30
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_226
       rect:
         serializedVersion: 2
@@ -2087,7 +2087,7 @@ TextureImporter:
         width: 38
         height: 31
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_227
       rect:
         serializedVersion: 2
@@ -2096,7 +2096,7 @@ TextureImporter:
         width: 60
         height: 24
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_228
       rect:
         serializedVersion: 2
@@ -2105,7 +2105,7 @@ TextureImporter:
         width: 48
         height: 25
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_229
       rect:
         serializedVersion: 2
@@ -2114,7 +2114,7 @@ TextureImporter:
         width: 45
         height: 27
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_230
       rect:
         serializedVersion: 2
@@ -2123,7 +2123,7 @@ TextureImporter:
         width: 16
         height: 37
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_231
       rect:
         serializedVersion: 2
@@ -2132,7 +2132,7 @@ TextureImporter:
         width: 16
         height: 37
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_232
       rect:
         serializedVersion: 2
@@ -2141,7 +2141,7 @@ TextureImporter:
         width: 16
         height: 37
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_233
       rect:
         serializedVersion: 2
@@ -2150,7 +2150,7 @@ TextureImporter:
         width: 16
         height: 37
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_234
       rect:
         serializedVersion: 2
@@ -2159,7 +2159,7 @@ TextureImporter:
         width: 32
         height: 36
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_235
       rect:
         serializedVersion: 2
@@ -2168,7 +2168,7 @@ TextureImporter:
         width: 32
         height: 43
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_236
       rect:
         serializedVersion: 2
@@ -2177,7 +2177,7 @@ TextureImporter:
         width: 32
         height: 47
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_237
       rect:
         serializedVersion: 2
@@ -2186,7 +2186,7 @@ TextureImporter:
         width: 32
         height: 56
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_238
       rect:
         serializedVersion: 2
@@ -2195,7 +2195,7 @@ TextureImporter:
         width: 30
         height: 44
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_239
       rect:
         serializedVersion: 2
@@ -2204,7 +2204,7 @@ TextureImporter:
         width: 28
         height: 44
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_240
       rect:
         serializedVersion: 2
@@ -2213,7 +2213,7 @@ TextureImporter:
         width: 28
         height: 44
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_241
       rect:
         serializedVersion: 2
@@ -2222,7 +2222,7 @@ TextureImporter:
         width: 16
         height: 14
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_242
       rect:
         serializedVersion: 2
@@ -2231,7 +2231,7 @@ TextureImporter:
         width: 19
         height: 23
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_243
       rect:
         serializedVersion: 2
@@ -2240,7 +2240,7 @@ TextureImporter:
         width: 19
         height: 20
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_244
       rect:
         serializedVersion: 2
@@ -2249,7 +2249,7 @@ TextureImporter:
         width: 27
         height: 19
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_245
       rect:
         serializedVersion: 2
@@ -2258,7 +2258,7 @@ TextureImporter:
         width: 27
         height: 17
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_246
       rect:
         serializedVersion: 2
@@ -2267,7 +2267,7 @@ TextureImporter:
         width: 25
         height: 19
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_247
       rect:
         serializedVersion: 2
@@ -2276,7 +2276,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_248
       rect:
         serializedVersion: 2
@@ -2285,7 +2285,7 @@ TextureImporter:
         width: 19
         height: 23
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_249
       rect:
         serializedVersion: 2
@@ -2294,7 +2294,7 @@ TextureImporter:
         width: 19
         height: 20
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_250
       rect:
         serializedVersion: 2
@@ -2303,7 +2303,7 @@ TextureImporter:
         width: 27
         height: 19
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_251
       rect:
         serializedVersion: 2
@@ -2312,7 +2312,7 @@ TextureImporter:
         width: 27
         height: 17
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_252
       rect:
         serializedVersion: 2
@@ -2321,7 +2321,7 @@ TextureImporter:
         width: 25
         height: 19
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_253
       rect:
         serializedVersion: 2
@@ -2330,7 +2330,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_254
       rect:
         serializedVersion: 2
@@ -2339,7 +2339,7 @@ TextureImporter:
         width: 16
         height: 15
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_255
       rect:
         serializedVersion: 2
@@ -2348,7 +2348,7 @@ TextureImporter:
         width: 14
         height: 15
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_256
       rect:
         serializedVersion: 2
@@ -2357,7 +2357,7 @@ TextureImporter:
         width: 15
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_257
       rect:
         serializedVersion: 2
@@ -2366,7 +2366,7 @@ TextureImporter:
         width: 15
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_258
       rect:
         serializedVersion: 2
@@ -2375,7 +2375,7 @@ TextureImporter:
         width: 14
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_259
       rect:
         serializedVersion: 2
@@ -2384,7 +2384,7 @@ TextureImporter:
         width: 14
         height: 14
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_260
       rect:
         serializedVersion: 2
@@ -2393,7 +2393,7 @@ TextureImporter:
         width: 15
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_261
       rect:
         serializedVersion: 2
@@ -2402,7 +2402,7 @@ TextureImporter:
         width: 15
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_262
       rect:
         serializedVersion: 2
@@ -2411,7 +2411,7 @@ TextureImporter:
         width: 48
         height: 50
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_263
       rect:
         serializedVersion: 2
@@ -2420,7 +2420,7 @@ TextureImporter:
         width: 48
         height: 49
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_264
       rect:
         serializedVersion: 2
@@ -2429,7 +2429,7 @@ TextureImporter:
         width: 48
         height: 63
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_265
       rect:
         serializedVersion: 2
@@ -2438,7 +2438,7 @@ TextureImporter:
         width: 48
         height: 50
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_266
       rect:
         serializedVersion: 2
@@ -2447,7 +2447,7 @@ TextureImporter:
         width: 48
         height: 50
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_267
       rect:
         serializedVersion: 2
@@ -2456,7 +2456,7 @@ TextureImporter:
         width: 48
         height: 50
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_268
       rect:
         serializedVersion: 2
@@ -2465,7 +2465,7 @@ TextureImporter:
         width: 48
         height: 50
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_269
       rect:
         serializedVersion: 2
@@ -2474,7 +2474,7 @@ TextureImporter:
         width: 48
         height: 50
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_270
       rect:
         serializedVersion: 2
@@ -2483,7 +2483,7 @@ TextureImporter:
         width: 16
         height: 15
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_271
       rect:
         serializedVersion: 2
@@ -2492,7 +2492,7 @@ TextureImporter:
         width: 14
         height: 15
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_272
       rect:
         serializedVersion: 2
@@ -2501,7 +2501,7 @@ TextureImporter:
         width: 15
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_273
       rect:
         serializedVersion: 2
@@ -2510,7 +2510,7 @@ TextureImporter:
         width: 15
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_274
       rect:
         serializedVersion: 2
@@ -2519,7 +2519,7 @@ TextureImporter:
         width: 14
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_275
       rect:
         serializedVersion: 2
@@ -2528,7 +2528,7 @@ TextureImporter:
         width: 14
         height: 14
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_276
       rect:
         serializedVersion: 2
@@ -2537,7 +2537,7 @@ TextureImporter:
         width: 15
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_277
       rect:
         serializedVersion: 2
@@ -2546,7 +2546,7 @@ TextureImporter:
         width: 15
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_278
       rect:
         serializedVersion: 2
@@ -2555,7 +2555,7 @@ TextureImporter:
         width: 16
         height: 15
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_279
       rect:
         serializedVersion: 2
@@ -2564,7 +2564,7 @@ TextureImporter:
         width: 14
         height: 15
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_280
       rect:
         serializedVersion: 2
@@ -2573,7 +2573,7 @@ TextureImporter:
         width: 15
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_281
       rect:
         serializedVersion: 2
@@ -2582,7 +2582,7 @@ TextureImporter:
         width: 15
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_282
       rect:
         serializedVersion: 2
@@ -2591,7 +2591,7 @@ TextureImporter:
         width: 14
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_283
       rect:
         serializedVersion: 2
@@ -2600,7 +2600,7 @@ TextureImporter:
         width: 14
         height: 14
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_284
       rect:
         serializedVersion: 2
@@ -2609,7 +2609,7 @@ TextureImporter:
         width: 15
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_285
       rect:
         serializedVersion: 2
@@ -2618,7 +2618,7 @@ TextureImporter:
         width: 15
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_286
       rect:
         serializedVersion: 2
@@ -2627,7 +2627,7 @@ TextureImporter:
         width: 16
         height: 15
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_287
       rect:
         serializedVersion: 2
@@ -2636,7 +2636,7 @@ TextureImporter:
         width: 14
         height: 15
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_288
       rect:
         serializedVersion: 2
@@ -2645,7 +2645,7 @@ TextureImporter:
         width: 15
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_289
       rect:
         serializedVersion: 2
@@ -2654,7 +2654,7 @@ TextureImporter:
         width: 15
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_290
       rect:
         serializedVersion: 2
@@ -2663,7 +2663,7 @@ TextureImporter:
         width: 14
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_291
       rect:
         serializedVersion: 2
@@ -2672,7 +2672,7 @@ TextureImporter:
         width: 14
         height: 14
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_292
       rect:
         serializedVersion: 2
@@ -2681,7 +2681,7 @@ TextureImporter:
         width: 15
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_293
       rect:
         serializedVersion: 2
@@ -2690,7 +2690,7 @@ TextureImporter:
         width: 15
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_294
       rect:
         serializedVersion: 2
@@ -2699,7 +2699,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_295
       rect:
         serializedVersion: 2
@@ -2708,7 +2708,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_296
       rect:
         serializedVersion: 2
@@ -2717,7 +2717,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_297
       rect:
         serializedVersion: 2
@@ -2726,7 +2726,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_298
       rect:
         serializedVersion: 2
@@ -2735,7 +2735,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_299
       rect:
         serializedVersion: 2
@@ -2744,7 +2744,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_300
       rect:
         serializedVersion: 2
@@ -2753,7 +2753,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_301
       rect:
         serializedVersion: 2
@@ -2762,7 +2762,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_302
       rect:
         serializedVersion: 2
@@ -2771,7 +2771,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_303
       rect:
         serializedVersion: 2
@@ -2780,7 +2780,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_304
       rect:
         serializedVersion: 2
@@ -2789,7 +2789,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_305
       rect:
         serializedVersion: 2
@@ -2798,7 +2798,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_306
       rect:
         serializedVersion: 2
@@ -2807,7 +2807,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_307
       rect:
         serializedVersion: 2
@@ -2816,7 +2816,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_308
       rect:
         serializedVersion: 2
@@ -2825,7 +2825,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_309
       rect:
         serializedVersion: 2
@@ -2834,7 +2834,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_310
       rect:
         serializedVersion: 2
@@ -2843,7 +2843,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_311
       rect:
         serializedVersion: 2
@@ -2852,7 +2852,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_312
       rect:
         serializedVersion: 2
@@ -2861,7 +2861,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_313
       rect:
         serializedVersion: 2
@@ -2870,7 +2870,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_314
       rect:
         serializedVersion: 2
@@ -2879,7 +2879,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_315
       rect:
         serializedVersion: 2
@@ -2888,7 +2888,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_316
       rect:
         serializedVersion: 2
@@ -2897,7 +2897,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_317
       rect:
         serializedVersion: 2
@@ -2906,7 +2906,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_318
       rect:
         serializedVersion: 2
@@ -2915,7 +2915,7 @@ TextureImporter:
         width: 32
         height: 46
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_319
       rect:
         serializedVersion: 2
@@ -2924,7 +2924,7 @@ TextureImporter:
         width: 32
         height: 46
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_320
       rect:
         serializedVersion: 2
@@ -2933,7 +2933,7 @@ TextureImporter:
         width: 32
         height: 46
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_321
       rect:
         serializedVersion: 2
@@ -2942,7 +2942,7 @@ TextureImporter:
         width: 32
         height: 46
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_322
       rect:
         serializedVersion: 2
@@ -2951,7 +2951,7 @@ TextureImporter:
         width: 32
         height: 15
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_323
       rect:
         serializedVersion: 2
@@ -2960,7 +2960,7 @@ TextureImporter:
         width: 31
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_324
       rect:
         serializedVersion: 2
@@ -2969,7 +2969,7 @@ TextureImporter:
         width: 27
         height: 15
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_325
       rect:
         serializedVersion: 2
@@ -2978,7 +2978,7 @@ TextureImporter:
         width: 7
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_326
       rect:
         serializedVersion: 2
@@ -2987,7 +2987,7 @@ TextureImporter:
         width: 7
         height: 7
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_327
       rect:
         serializedVersion: 2
@@ -2996,7 +2996,7 @@ TextureImporter:
         width: 7
         height: 7
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_328
       rect:
         serializedVersion: 2
@@ -3005,7 +3005,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_329
       rect:
         serializedVersion: 2
@@ -3014,7 +3014,7 @@ TextureImporter:
         width: 32
         height: 15
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_330
       rect:
         serializedVersion: 2
@@ -3023,7 +3023,7 @@ TextureImporter:
         width: 31
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_331
       rect:
         serializedVersion: 2
@@ -3032,7 +3032,7 @@ TextureImporter:
         width: 27
         height: 15
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_332
       rect:
         serializedVersion: 2
@@ -3041,7 +3041,7 @@ TextureImporter:
         width: 7
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_333
       rect:
         serializedVersion: 2
@@ -3050,7 +3050,7 @@ TextureImporter:
         width: 7
         height: 7
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_334
       rect:
         serializedVersion: 2
@@ -3059,7 +3059,7 @@ TextureImporter:
         width: 7
         height: 7
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_335
       rect:
         serializedVersion: 2
@@ -3068,7 +3068,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_336
       rect:
         serializedVersion: 2
@@ -3077,7 +3077,7 @@ TextureImporter:
         width: 18
         height: 11
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_337
       rect:
         serializedVersion: 2
@@ -3086,7 +3086,7 @@ TextureImporter:
         width: 18
         height: 15
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_338
       rect:
         serializedVersion: 2
@@ -3095,7 +3095,7 @@ TextureImporter:
         width: 18
         height: 18
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_339
       rect:
         serializedVersion: 2
@@ -3104,7 +3104,7 @@ TextureImporter:
         width: 18
         height: 19
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_340
       rect:
         serializedVersion: 2
@@ -3113,7 +3113,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_341
       rect:
         serializedVersion: 2
@@ -3122,7 +3122,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_342
       rect:
         serializedVersion: 2
@@ -3131,7 +3131,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_343
       rect:
         serializedVersion: 2
@@ -3140,7 +3140,7 @@ TextureImporter:
         width: 28
         height: 51
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_344
       rect:
         serializedVersion: 2
@@ -3149,7 +3149,7 @@ TextureImporter:
         width: 24
         height: 28
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_345
       rect:
         serializedVersion: 2
@@ -3158,7 +3158,7 @@ TextureImporter:
         width: 24
         height: 30
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_346
       rect:
         serializedVersion: 2
@@ -3167,7 +3167,7 @@ TextureImporter:
         width: 24
         height: 29
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_347
       rect:
         serializedVersion: 2
@@ -3176,7 +3176,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_348
       rect:
         serializedVersion: 2
@@ -3185,7 +3185,7 @@ TextureImporter:
         width: 24
         height: 25
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_349
       rect:
         serializedVersion: 2
@@ -3194,7 +3194,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_350
       rect:
         serializedVersion: 2
@@ -3203,7 +3203,7 @@ TextureImporter:
         width: 24
         height: 28
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_351
       rect:
         serializedVersion: 2
@@ -3212,7 +3212,7 @@ TextureImporter:
         width: 24
         height: 30
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_352
       rect:
         serializedVersion: 2
@@ -3221,7 +3221,7 @@ TextureImporter:
         width: 24
         height: 29
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_353
       rect:
         serializedVersion: 2
@@ -3230,7 +3230,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_354
       rect:
         serializedVersion: 2
@@ -3239,7 +3239,7 @@ TextureImporter:
         width: 24
         height: 25
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_355
       rect:
         serializedVersion: 2
@@ -3248,7 +3248,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_356
       rect:
         serializedVersion: 2
@@ -3257,7 +3257,7 @@ TextureImporter:
         width: 24
         height: 28
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_357
       rect:
         serializedVersion: 2
@@ -3266,7 +3266,7 @@ TextureImporter:
         width: 24
         height: 31
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_358
       rect:
         serializedVersion: 2
@@ -3275,7 +3275,7 @@ TextureImporter:
         width: 24
         height: 30
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_359
       rect:
         serializedVersion: 2
@@ -3284,7 +3284,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_360
       rect:
         serializedVersion: 2
@@ -3293,7 +3293,7 @@ TextureImporter:
         width: 24
         height: 25
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_361
       rect:
         serializedVersion: 2
@@ -3302,7 +3302,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_362
       rect:
         serializedVersion: 2
@@ -3311,7 +3311,7 @@ TextureImporter:
         width: 18
         height: 19
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_363
       rect:
         serializedVersion: 2
@@ -3320,7 +3320,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_364
       rect:
         serializedVersion: 2
@@ -3329,7 +3329,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_365
       rect:
         serializedVersion: 2
@@ -3338,7 +3338,7 @@ TextureImporter:
         width: 8
         height: 9
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_366
       rect:
         serializedVersion: 2
@@ -3347,7 +3347,7 @@ TextureImporter:
         width: 8
         height: 7
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_367
       rect:
         serializedVersion: 2
@@ -3356,7 +3356,7 @@ TextureImporter:
         width: 8
         height: 7
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_368
       rect:
         serializedVersion: 2
@@ -3365,7 +3365,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_369
       rect:
         serializedVersion: 2
@@ -3374,7 +3374,7 @@ TextureImporter:
         width: 7
         height: 7
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_370
       rect:
         serializedVersion: 2
@@ -3383,7 +3383,7 @@ TextureImporter:
         width: 6
         height: 5
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_371
       rect:
         serializedVersion: 2
@@ -3392,7 +3392,7 @@ TextureImporter:
         width: 24
         height: 23
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_372
       rect:
         serializedVersion: 2
@@ -3401,7 +3401,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_373
       rect:
         serializedVersion: 2
@@ -3410,7 +3410,7 @@ TextureImporter:
         width: 16
         height: 20
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_374
       rect:
         serializedVersion: 2
@@ -3419,7 +3419,7 @@ TextureImporter:
         width: 16
         height: 20
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_375
       rect:
         serializedVersion: 2
@@ -3428,7 +3428,7 @@ TextureImporter:
         width: 16
         height: 19
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_376
       rect:
         serializedVersion: 2
@@ -3437,7 +3437,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_377
       rect:
         serializedVersion: 2
@@ -3446,7 +3446,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_378
       rect:
         serializedVersion: 2
@@ -3455,7 +3455,7 @@ TextureImporter:
         width: 16
         height: 20
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_379
       rect:
         serializedVersion: 2
@@ -3464,7 +3464,7 @@ TextureImporter:
         width: 16
         height: 20
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_380
       rect:
         serializedVersion: 2
@@ -3473,7 +3473,7 @@ TextureImporter:
         width: 16
         height: 19
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_381
       rect:
         serializedVersion: 2
@@ -3482,7 +3482,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_382
       rect:
         serializedVersion: 2
@@ -3491,7 +3491,7 @@ TextureImporter:
         width: 20
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_383
       rect:
         serializedVersion: 2
@@ -3500,7 +3500,7 @@ TextureImporter:
         width: 20
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_384
       rect:
         serializedVersion: 2
@@ -3509,7 +3509,7 @@ TextureImporter:
         width: 20
         height: 34
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_385
       rect:
         serializedVersion: 2
@@ -3518,7 +3518,7 @@ TextureImporter:
         width: 20
         height: 34
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_386
       rect:
         serializedVersion: 2
@@ -3527,7 +3527,7 @@ TextureImporter:
         width: 20
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_387
       rect:
         serializedVersion: 2
@@ -3536,7 +3536,7 @@ TextureImporter:
         width: 20
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_388
       rect:
         serializedVersion: 2
@@ -3545,7 +3545,7 @@ TextureImporter:
         width: 20
         height: 34
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_389
       rect:
         serializedVersion: 2
@@ -3554,7 +3554,7 @@ TextureImporter:
         width: 20
         height: 34
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_390
       rect:
         serializedVersion: 2
@@ -3563,7 +3563,7 @@ TextureImporter:
         width: 20
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_391
       rect:
         serializedVersion: 2
@@ -3572,7 +3572,7 @@ TextureImporter:
         width: 20
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_392
       rect:
         serializedVersion: 2
@@ -3581,7 +3581,7 @@ TextureImporter:
         width: 20
         height: 34
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_393
       rect:
         serializedVersion: 2
@@ -3590,7 +3590,7 @@ TextureImporter:
         width: 20
         height: 34
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_394
       rect:
         serializedVersion: 2
@@ -3599,7 +3599,7 @@ TextureImporter:
         width: 20
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_395
       rect:
         serializedVersion: 2
@@ -3608,7 +3608,7 @@ TextureImporter:
         width: 20
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_396
       rect:
         serializedVersion: 2
@@ -3617,7 +3617,7 @@ TextureImporter:
         width: 22
         height: 36
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_397
       rect:
         serializedVersion: 2
@@ -3626,7 +3626,7 @@ TextureImporter:
         width: 34
         height: 45
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_398
       rect:
         serializedVersion: 2
@@ -3635,7 +3635,7 @@ TextureImporter:
         width: 8
         height: 14
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_399
       rect:
         serializedVersion: 2
@@ -3644,7 +3644,7 @@ TextureImporter:
         width: 7
         height: 6
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_400
       rect:
         serializedVersion: 2
@@ -3653,7 +3653,7 @@ TextureImporter:
         width: 34
         height: 44
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_401
       rect:
         serializedVersion: 2
@@ -3662,7 +3662,7 @@ TextureImporter:
         width: 34
         height: 45
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_402
       rect:
         serializedVersion: 2
@@ -3671,7 +3671,7 @@ TextureImporter:
         width: 34
         height: 46
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_403
       rect:
         serializedVersion: 2
@@ -3680,7 +3680,7 @@ TextureImporter:
         width: 7
         height: 6
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_404
       rect:
         serializedVersion: 2
@@ -3689,7 +3689,7 @@ TextureImporter:
         width: 34
         height: 44
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_405
       rect:
         serializedVersion: 2
@@ -3698,7 +3698,7 @@ TextureImporter:
         width: 34
         height: 31
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_406
       rect:
         serializedVersion: 2
@@ -3707,7 +3707,7 @@ TextureImporter:
         width: 34
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_407
       rect:
         serializedVersion: 2
@@ -3716,7 +3716,7 @@ TextureImporter:
         width: 34
         height: 35
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_408
       rect:
         serializedVersion: 2
@@ -3725,7 +3725,7 @@ TextureImporter:
         width: 8
         height: 38
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_409
       rect:
         serializedVersion: 2
@@ -3734,7 +3734,7 @@ TextureImporter:
         width: 10
         height: 27
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_410
       rect:
         serializedVersion: 2
@@ -3743,7 +3743,7 @@ TextureImporter:
         width: 9
         height: 40
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_411
       rect:
         serializedVersion: 2
@@ -3752,7 +3752,7 @@ TextureImporter:
         width: 11
         height: 41
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_412
       rect:
         serializedVersion: 2
@@ -3761,7 +3761,7 @@ TextureImporter:
         width: 9
         height: 37
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_413
       rect:
         serializedVersion: 2
@@ -3770,7 +3770,7 @@ TextureImporter:
         width: 9
         height: 38
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_414
       rect:
         serializedVersion: 2
@@ -3779,7 +3779,7 @@ TextureImporter:
         width: 15
         height: 22
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_415
       rect:
         serializedVersion: 2
@@ -3788,7 +3788,7 @@ TextureImporter:
         width: 16
         height: 11
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_416
       rect:
         serializedVersion: 2
@@ -3797,7 +3797,7 @@ TextureImporter:
         width: 18
         height: 9
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_417
       rect:
         serializedVersion: 2
@@ -3806,7 +3806,7 @@ TextureImporter:
         width: 13
         height: 7
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_418
       rect:
         serializedVersion: 2
@@ -3815,7 +3815,7 @@ TextureImporter:
         width: 6
         height: 6
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_419
       rect:
         serializedVersion: 2
@@ -3824,7 +3824,7 @@ TextureImporter:
         width: 22
         height: 7
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_420
       rect:
         serializedVersion: 2
@@ -3833,7 +3833,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_421
       rect:
         serializedVersion: 2
@@ -3842,7 +3842,7 @@ TextureImporter:
         width: 8
         height: 22
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_422
       rect:
         serializedVersion: 2
@@ -3851,7 +3851,7 @@ TextureImporter:
         width: 8
         height: 10
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_423
       rect:
         serializedVersion: 2
@@ -3860,7 +3860,7 @@ TextureImporter:
         width: 8
         height: 10
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_424
       rect:
         serializedVersion: 2
@@ -3869,7 +3869,7 @@ TextureImporter:
         width: 8
         height: 10
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_425
       rect:
         serializedVersion: 2
@@ -3878,7 +3878,7 @@ TextureImporter:
         width: 8
         height: 10
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_426
       rect:
         serializedVersion: 2
@@ -3887,7 +3887,7 @@ TextureImporter:
         width: 8
         height: 10
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_427
       rect:
         serializedVersion: 2
@@ -3896,7 +3896,7 @@ TextureImporter:
         width: 8
         height: 10
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_428
       rect:
         serializedVersion: 2
@@ -3905,7 +3905,7 @@ TextureImporter:
         width: 8
         height: 10
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_429
       rect:
         serializedVersion: 2
@@ -3914,7 +3914,7 @@ TextureImporter:
         width: 8
         height: 10
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_430
       rect:
         serializedVersion: 2
@@ -3923,7 +3923,7 @@ TextureImporter:
         width: 106
         height: 128
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_431
       rect:
         serializedVersion: 2
@@ -3932,7 +3932,7 @@ TextureImporter:
         width: 24
         height: 34
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_432
       rect:
         serializedVersion: 2
@@ -3941,7 +3941,7 @@ TextureImporter:
         width: 24
         height: 37
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_433
       rect:
         serializedVersion: 2
@@ -3950,7 +3950,7 @@ TextureImporter:
         width: 24
         height: 34
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_434
       rect:
         serializedVersion: 2
@@ -3959,7 +3959,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_435
       rect:
         serializedVersion: 2
@@ -3968,7 +3968,7 @@ TextureImporter:
         width: 24
         height: 34
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_436
       rect:
         serializedVersion: 2
@@ -3977,7 +3977,7 @@ TextureImporter:
         width: 24
         height: 37
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_437
       rect:
         serializedVersion: 2
@@ -3986,7 +3986,7 @@ TextureImporter:
         width: 24
         height: 34
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_438
       rect:
         serializedVersion: 2
@@ -3995,7 +3995,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_439
       rect:
         serializedVersion: 2
@@ -4004,7 +4004,7 @@ TextureImporter:
         width: 27
         height: 22
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_440
       rect:
         serializedVersion: 2
@@ -4013,7 +4013,7 @@ TextureImporter:
         width: 27
         height: 24
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_441
       rect:
         serializedVersion: 2
@@ -4022,7 +4022,7 @@ TextureImporter:
         width: 27
         height: 25
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_442
       rect:
         serializedVersion: 2
@@ -4031,7 +4031,7 @@ TextureImporter:
         width: 27
         height: 25
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_443
       rect:
         serializedVersion: 2
@@ -4040,7 +4040,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_444
       rect:
         serializedVersion: 2
@@ -4049,7 +4049,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_445
       rect:
         serializedVersion: 2
@@ -4058,7 +4058,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_446
       rect:
         serializedVersion: 2
@@ -4067,7 +4067,7 @@ TextureImporter:
         width: 26
         height: 26
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_447
       rect:
         serializedVersion: 2
@@ -4076,7 +4076,7 @@ TextureImporter:
         width: 68
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_448
       rect:
         serializedVersion: 2
@@ -4085,7 +4085,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_449
       rect:
         serializedVersion: 2
@@ -4094,7 +4094,7 @@ TextureImporter:
         width: 14
         height: 14
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_450
       rect:
         serializedVersion: 2
@@ -4103,7 +4103,7 @@ TextureImporter:
         width: 12
         height: 12
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_451
       rect:
         serializedVersion: 2
@@ -4112,7 +4112,7 @@ TextureImporter:
         width: 24
         height: 23
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_452
       rect:
         serializedVersion: 2
@@ -4121,7 +4121,7 @@ TextureImporter:
         width: 24
         height: 23
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_453
       rect:
         serializedVersion: 2
@@ -4130,7 +4130,7 @@ TextureImporter:
         width: 24
         height: 23
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_454
       rect:
         serializedVersion: 2
@@ -4139,7 +4139,7 @@ TextureImporter:
         width: 32
         height: 27
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_455
       rect:
         serializedVersion: 2
@@ -4148,7 +4148,7 @@ TextureImporter:
         width: 32
         height: 26
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_456
       rect:
         serializedVersion: 2
@@ -4157,7 +4157,7 @@ TextureImporter:
         width: 32
         height: 27
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_457
       rect:
         serializedVersion: 2
@@ -4166,7 +4166,7 @@ TextureImporter:
         width: 32
         height: 28
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_458
       rect:
         serializedVersion: 2
@@ -4175,7 +4175,7 @@ TextureImporter:
         width: 32
         height: 20
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_459
       rect:
         serializedVersion: 2
@@ -4184,7 +4184,7 @@ TextureImporter:
         width: 24
         height: 19
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_460
       rect:
         serializedVersion: 2
@@ -4193,7 +4193,7 @@ TextureImporter:
         width: 18
         height: 17
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_461
       rect:
         serializedVersion: 2
@@ -4202,7 +4202,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_462
       rect:
         serializedVersion: 2
@@ -4211,7 +4211,7 @@ TextureImporter:
         width: 23
         height: 23
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_463
       rect:
         serializedVersion: 2
@@ -4220,7 +4220,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_464
       rect:
         serializedVersion: 2
@@ -4229,7 +4229,7 @@ TextureImporter:
         width: 39
         height: 15
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_465
       rect:
         serializedVersion: 2
@@ -4238,7 +4238,7 @@ TextureImporter:
         width: 32
         height: 17
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_466
       rect:
         serializedVersion: 2
@@ -4247,7 +4247,7 @@ TextureImporter:
         width: 45
         height: 63
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_467
       rect:
         serializedVersion: 2
@@ -4256,7 +4256,7 @@ TextureImporter:
         width: 41
         height: 62
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_468
       rect:
         serializedVersion: 2
@@ -4265,7 +4265,7 @@ TextureImporter:
         width: 49
         height: 65
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_469
       rect:
         serializedVersion: 2
@@ -4274,7 +4274,7 @@ TextureImporter:
         width: 58
         height: 63
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_470
       rect:
         serializedVersion: 2
@@ -4283,7 +4283,7 @@ TextureImporter:
         width: 45
         height: 65
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_471
       rect:
         serializedVersion: 2
@@ -4292,7 +4292,7 @@ TextureImporter:
         width: 32
         height: 9
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_472
       rect:
         serializedVersion: 2
@@ -4301,7 +4301,7 @@ TextureImporter:
         width: 12
         height: 12
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_473
       rect:
         serializedVersion: 2
@@ -4310,7 +4310,7 @@ TextureImporter:
         width: 10
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_474
       rect:
         serializedVersion: 2
@@ -4319,7 +4319,7 @@ TextureImporter:
         width: 45
         height: 63
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_475
       rect:
         serializedVersion: 2
@@ -4328,7 +4328,7 @@ TextureImporter:
         width: 41
         height: 62
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_476
       rect:
         serializedVersion: 2
@@ -4337,7 +4337,7 @@ TextureImporter:
         width: 49
         height: 65
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_477
       rect:
         serializedVersion: 2
@@ -4346,7 +4346,7 @@ TextureImporter:
         width: 58
         height: 63
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_478
       rect:
         serializedVersion: 2
@@ -4355,7 +4355,7 @@ TextureImporter:
         width: 45
         height: 65
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_479
       rect:
         serializedVersion: 2
@@ -4364,7 +4364,7 @@ TextureImporter:
         width: 32
         height: 9
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_480
       rect:
         serializedVersion: 2
@@ -4373,7 +4373,7 @@ TextureImporter:
         width: 12
         height: 12
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_481
       rect:
         serializedVersion: 2
@@ -4382,7 +4382,7 @@ TextureImporter:
         width: 10
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_482
       rect:
         serializedVersion: 2
@@ -4391,7 +4391,7 @@ TextureImporter:
         width: 32
         height: 21
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_483
       rect:
         serializedVersion: 2
@@ -4400,7 +4400,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_484
       rect:
         serializedVersion: 2
@@ -4409,7 +4409,7 @@ TextureImporter:
         width: 29
         height: 23
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_485
       rect:
         serializedVersion: 2
@@ -4418,7 +4418,7 @@ TextureImporter:
         width: 23
         height: 32
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_486
       rect:
         serializedVersion: 2
@@ -4427,7 +4427,7 @@ TextureImporter:
         width: 32
         height: 21
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_487
       rect:
         serializedVersion: 2
@@ -4436,7 +4436,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_488
       rect:
         serializedVersion: 2
@@ -4445,7 +4445,7 @@ TextureImporter:
         width: 19
         height: 20
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_489
       rect:
         serializedVersion: 2
@@ -4454,7 +4454,7 @@ TextureImporter:
         width: 20
         height: 21
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_490
       rect:
         serializedVersion: 2
@@ -4463,7 +4463,7 @@ TextureImporter:
         width: 21
         height: 25
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_491
       rect:
         serializedVersion: 2
@@ -4472,7 +4472,7 @@ TextureImporter:
         width: 18
         height: 28
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_492
       rect:
         serializedVersion: 2
@@ -4481,7 +4481,7 @@ TextureImporter:
         width: 4
         height: 4
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_493
       rect:
         serializedVersion: 2
@@ -4490,7 +4490,7 @@ TextureImporter:
         width: 32
         height: 17
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_494
       rect:
         serializedVersion: 2
@@ -4499,7 +4499,7 @@ TextureImporter:
         width: 32
         height: 17
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_495
       rect:
         serializedVersion: 2
@@ -4508,7 +4508,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_496
       rect:
         serializedVersion: 2
@@ -4517,7 +4517,7 @@ TextureImporter:
         width: 32
         height: 17
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_497
       rect:
         serializedVersion: 2
@@ -4526,7 +4526,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_498
       rect:
         serializedVersion: 2
@@ -4535,7 +4535,7 @@ TextureImporter:
         width: 18
         height: 12
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_499
       rect:
         serializedVersion: 2
@@ -4544,7 +4544,7 @@ TextureImporter:
         width: 18
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_500
       rect:
         serializedVersion: 2
@@ -4553,7 +4553,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_501
       rect:
         serializedVersion: 2
@@ -4562,7 +4562,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_502
       rect:
         serializedVersion: 2
@@ -4571,7 +4571,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_503
       rect:
         serializedVersion: 2
@@ -4580,7 +4580,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_504
       rect:
         serializedVersion: 2
@@ -4589,7 +4589,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_505
       rect:
         serializedVersion: 2
@@ -4598,7 +4598,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_506
       rect:
         serializedVersion: 2
@@ -4607,7 +4607,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_507
       rect:
         serializedVersion: 2
@@ -4616,7 +4616,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_508
       rect:
         serializedVersion: 2
@@ -4625,7 +4625,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_509
       rect:
         serializedVersion: 2
@@ -4634,7 +4634,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_510
       rect:
         serializedVersion: 2
@@ -4643,7 +4643,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_511
       rect:
         serializedVersion: 2
@@ -4652,7 +4652,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_512
       rect:
         serializedVersion: 2
@@ -4661,7 +4661,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_513
       rect:
         serializedVersion: 2
@@ -4670,7 +4670,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_514
       rect:
         serializedVersion: 2
@@ -4679,7 +4679,7 @@ TextureImporter:
         width: 16
         height: 22
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_515
       rect:
         serializedVersion: 2
@@ -4688,7 +4688,7 @@ TextureImporter:
         width: 16
         height: 24
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_516
       rect:
         serializedVersion: 2
@@ -4697,7 +4697,7 @@ TextureImporter:
         width: 16
         height: 24
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_517
       rect:
         serializedVersion: 2
@@ -4706,7 +4706,7 @@ TextureImporter:
         width: 16
         height: 24
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_518
       rect:
         serializedVersion: 2
@@ -4715,7 +4715,7 @@ TextureImporter:
         width: 16
         height: 24
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_519
       rect:
         serializedVersion: 2
@@ -4724,7 +4724,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_520
       rect:
         serializedVersion: 2
@@ -4733,7 +4733,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_521
       rect:
         serializedVersion: 2
@@ -4742,7 +4742,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_522
       rect:
         serializedVersion: 2
@@ -4751,7 +4751,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_523
       rect:
         serializedVersion: 2
@@ -4760,7 +4760,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_524
       rect:
         serializedVersion: 2
@@ -4769,7 +4769,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_525
       rect:
         serializedVersion: 2
@@ -4778,7 +4778,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_526
       rect:
         serializedVersion: 2
@@ -4787,7 +4787,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_527
       rect:
         serializedVersion: 2
@@ -4796,7 +4796,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_528
       rect:
         serializedVersion: 2
@@ -4805,7 +4805,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
     - name: mm5enemysheet_529
       rect:
         serializedVersion: 2
@@ -4814,6 +4814,6 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
   spritePackingTag: 
   userData: 

@@ -2,6 +2,8 @@
 using System.Collections;
 
 public class EggProjectile : MonoBehaviour {
+	Animator anim;
+
 	public float bulletSpeed;
 	public GameObject explosionSprite;
 
@@ -15,6 +17,8 @@ public class EggProjectile : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		countdown = count;
+		anim = GetComponent<Animator> ();
+		anim.SetBool ("Moving",true);
 	}
 	
 	// Update is called once per frame
@@ -25,6 +29,7 @@ public class EggProjectile : MonoBehaviour {
 
 		if (countdown <= 1) {
 			direction = 0;
+			anim.SetBool ("Moving",false);
 		}
 
 		if (countdown <= 0) {

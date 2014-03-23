@@ -19,7 +19,10 @@ public class PlayerMove : MonoBehaviour {
 
 	bool leftOk = false;
 	bool rightOk = false;
-	// Use this for initialization
+
+	public GameObject bullet;
+	public GameObject shootpos;
+
 	void Start () {
 	
 	}
@@ -83,6 +86,10 @@ public class PlayerMove : MonoBehaviour {
 			jumping = false;
 		}
 
+		if (Input.GetKeyDown(KeyCode.X)) {
+			Shoot();
+		}
+
 	}
 
 	void Flip() {
@@ -98,5 +105,10 @@ public class PlayerMove : MonoBehaviour {
 	bool Check (GameObject obj) {
 		bool groundIn = obj.GetComponent<GroundTriggerCheck>().groundInBox;
 		return groundIn;
+	}
+
+	void Shoot () {
+		GameObject BulletInstance = Instantiate( bullet, shootpos.transform.position, Quaternion.identity) as GameObject;
+		BulletInstance.GetComponent<Projectile> ().goRight = GetComponent<PlayerMove> ().facingRight;
 	}
 }
