@@ -1,0 +1,229 @@
+fileFormatVersion: 2
+guid: 07a2bb0c76c51dd46a37a1980d89a43b
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 12
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: mm4_ringman_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 50
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: mm4_ringman_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 50
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: mm4_ringman_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 50
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: mm4_ringman_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 50
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: mm4_ringman_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 50
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm4_ringman_5
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 50
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: mm4_ringman_6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 50
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: mm4_ringman_7
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 50
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: mm4_ringman_8
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 50
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: mm4_ringman_9
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 50
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: mm4_ringman_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 5
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: mm4_ringman_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 4
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: mm4_ringman_12
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 4
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: mm4_ringman_13
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 4
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: mm4_ringman_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 4
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: mm4_ringman_15
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 4
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: mm4_ringman_16
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 11
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: mm4_ringman_17
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 11
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: mm4_ringman_18
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 11
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: mm4_ringman_19
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 17
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 

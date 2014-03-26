@@ -49,7 +49,7 @@ public class EggProjectile : MonoBehaviour {
 
 	void OnCollisionEnter2D (Collision2D col) {
 		if (col.collider.CompareTag ("Player")) {
-			Debug.Log ("HURT PLAYER FOR :" + damageAmount);
+			col.gameObject.GetComponent<PlayerHealth>().Hurt(1);
 			DieScript();
 		}
 	}

@@ -17,6 +17,7 @@ public class Gate : MonoBehaviour {
 	public float countdown;
 	States state;
 	int direction;
+	public bool oneWay;
 	// Use this for initialization
 	void Start () {
 		player = GameObject.FindGameObjectWithTag ("Player");
@@ -75,7 +76,13 @@ public class Gate : MonoBehaviour {
 
 	void OnCollisionEnter2D (Collision2D col) {
 		if (col.gameObject.CompareTag("Player")) {
-			state = States.Preopening;
+			if (oneWay) {
+				if (transform.position.x > player.transform.position.x) {
+					state = States.Preopening;
+				}
+			} else {
+				state = States.Preopening;
+			}
 		}
 	}
 }
