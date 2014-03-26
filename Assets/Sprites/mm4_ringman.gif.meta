@@ -52,7 +52,7 @@ TextureImporter:
         y: 50
         width: 26
         height: 32
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
     - name: mm4_ringman_1
       rect:
@@ -61,7 +61,7 @@ TextureImporter:
         y: 50
         width: 22
         height: 32
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
     - name: mm4_ringman_2
       rect:
@@ -70,7 +70,7 @@ TextureImporter:
         y: 50
         width: 27
         height: 32
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
     - name: mm4_ringman_3
       rect:
@@ -79,7 +79,7 @@ TextureImporter:
         y: 50
         width: 27
         height: 32
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
     - name: mm4_ringman_4
       rect:
@@ -88,8 +88,8 @@ TextureImporter:
         y: 50
         width: 27
         height: 32
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: 0, y: 0}
     - name: mm4_ringman_5
       rect:
         serializedVersion: 2
@@ -97,7 +97,7 @@ TextureImporter:
         y: 50
         width: 27
         height: 33
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
     - name: mm4_ringman_6
       rect:
@@ -106,7 +106,7 @@ TextureImporter:
         y: 50
         width: 27
         height: 32
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
     - name: mm4_ringman_7
       rect:
@@ -115,7 +115,7 @@ TextureImporter:
         y: 50
         width: 27
         height: 32
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
     - name: mm4_ringman_8
       rect:
@@ -124,7 +124,7 @@ TextureImporter:
         y: 50
         width: 26
         height: 32
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
     - name: mm4_ringman_9
       rect:
@@ -133,7 +133,7 @@ TextureImporter:
         y: 50
         width: 28
         height: 32
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
     - name: mm4_ringman_10
       rect:
@@ -142,7 +142,7 @@ TextureImporter:
         y: 5
         width: 26
         height: 36
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
     - name: mm4_ringman_11
       rect:
@@ -151,7 +151,7 @@ TextureImporter:
         y: 4
         width: 22
         height: 36
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
     - name: mm4_ringman_12
       rect:
@@ -160,7 +160,7 @@ TextureImporter:
         y: 4
         width: 25
         height: 36
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
     - name: mm4_ringman_13
       rect:
@@ -169,7 +169,7 @@ TextureImporter:
         y: 4
         width: 22
         height: 32
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
     - name: mm4_ringman_14
       rect:
@@ -178,7 +178,7 @@ TextureImporter:
         y: 4
         width: 21
         height: 34
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
     - name: mm4_ringman_15
       rect:
@@ -187,7 +187,7 @@ TextureImporter:
         y: 4
         width: 27
         height: 32
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
     - name: mm4_ringman_16
       rect:
@@ -196,7 +196,7 @@ TextureImporter:
         y: 11
         width: 15
         height: 15
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
     - name: mm4_ringman_17
       rect:
@@ -205,7 +205,7 @@ TextureImporter:
         y: 11
         width: 16
         height: 16
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
     - name: mm4_ringman_18
       rect:
@@ -214,7 +214,7 @@ TextureImporter:
         y: 11
         width: 15
         height: 15
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
     - name: mm4_ringman_19
       rect:
@@ -223,7 +223,7 @@ TextureImporter:
         y: 17
         width: 16
         height: 4
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
   spritePackingTag: 
   userData: 

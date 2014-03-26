@@ -17,15 +17,17 @@ enum BossStates {
 
 public class RingmanAI : MonoBehaviour {
 
+	Animator anim;
 	GameObject player;
 	BossStates state = BossStates.teleport;
 	Transform bossSpawnTransform;
 	Environment env;
-
-	float teleportSpeed = 5;
+	float count = 0;
+	float teleportSpeed = 20;
 
 	// Use this for initialization
 	void Start () {
+		//anim = GetComponent<Animator>();
 		env = GameObject.FindGameObjectWithTag("Environment").GetComponent<Environment>();
 		player = GameObject.FindGameObjectWithTag("Player");
 		bossSpawnTransform = GameObject.FindGameObjectWithTag("BossSpawn").GetComponent<Transform>();
@@ -44,7 +46,10 @@ public class RingmanAI : MonoBehaviour {
 			Health ();
 			break;
 		case BossStates.taunt:
-			Taunt ();
+			PreBattleTaunt ();
+			break;
+		case BossStates.idle:
+			Idle();
 			break;
 		}
 	}
@@ -70,14 +75,80 @@ public class RingmanAI : MonoBehaviour {
 
 	void Health() {
 		env.bossActive = true;
-		if (env.bossHealth <= 21) {
-			env.bossHealth++;
+		env.bossHealth = 20;
+		state = BossStates.taunt;
+		count = 5;
+
+	}
+
+	void PreBattleTaunt() {
+		if (count > 0) {
+			count -= Time.deltaTime;
+
 		} else {
-			state = BossStates.taunt;
+
+			state = BossStates.idle;
+			count = 2;
 		}
 	}
 
-	void Taunt() {
+	void Idle() {
+		if (count > 0) {
+			count -= Time.deltaTime;
+		} else {
+			int newstate = Random.Range(0,5);
+			switch (newstate) {
+			case 0:
+				//Move
+				MoveSetup ();
+				break;
+			case 1:
+				//MoveJump
+				break;
+			case 2:
+				//Fire
+				break;
+			case 3:
+				//Fire Jump
+				break;
+			case 4:
+				//Fire Move
+				break;
+			case 5:
+				//Taunt
+				break;
+			}
+		}
+	}
 
+	void MoveSetup() {
+		//Move
+		float moveto = player.transform.position.x;
+		if (moveto > transform.position.x) {
+
+		} else {
+
+		}
+
+	}
+
+	void MoveJump() {
+		//MoveJump
+	}
+
+	void Fire() {
+		//Fire
+	}
+
+	void FireJump() {
+		//Fire Jump
+	}
+
+	void FireMove() {
+		//Fire Move
+	}
+
+	void Taunt() {
+		//Taunt
 	}
 }
