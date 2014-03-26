@@ -190,7 +190,7 @@ public class CameraRailFollow : MonoBehaviour {
 			if (player.position.y > tranCheck[0].y) {B = true;}; //Are they above the bottom left point
 			if (player.position.x < tranCheck[1].x) {C = true;}; //Are they to the left of the top right point
 			if (player.position.y < tranCheck[1].y) {D = true;}; //Are they below the top right point
-			Debug.Log (A + " " + B + " " + C + " " + D + " " + i);
+
 			if (A && B && C && D) {
 				//They're in the box
 
