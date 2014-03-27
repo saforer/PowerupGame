@@ -24,6 +24,7 @@ public class RingmanAI : MonoBehaviour {
 	Environment env;
 	float count = 0;
 	float teleportSpeed = 20;
+	bool setupStage = true;
 
 	// Use this for initialization
 	void Start () {
@@ -45,11 +46,23 @@ public class RingmanAI : MonoBehaviour {
 		case BossStates.healthwait:
 			Health ();
 			break;
-		case BossStates.taunt:
-			PreBattleTaunt ();
-			break;
 		case BossStates.idle:
 			Idle();
+			break;
+		case BossStates.move:
+			Move();
+			break;
+		case BossStates.movejump:
+			MoveJump ();
+			break;
+		case BossStates.fire:
+			Fire ();
+			break;
+		case BossStates.firejump:
+			FireJump ();
+			break;
+		case BossStates.taunt:
+			Taunt ();
 			break;
 		}
 	}
@@ -76,79 +89,117 @@ public class RingmanAI : MonoBehaviour {
 	void Health() {
 		env.bossActive = true;
 		env.bossHealth = 20;
-		state = BossStates.taunt;
-		count = 5;
-
+		state = BossStates.idle;
 	}
 
-	void PreBattleTaunt() {
-		if (count > 0) {
-			count -= Time.deltaTime;
-
-		} else {
-
-			state = BossStates.idle;
-			count = 2;
-		}
-	}
 
 	void Idle() {
-		if (count > 0) {
-			count -= Time.deltaTime;
+		if (!setupStage) {
+				if (count > 0) {
+					count -= Time.deltaTime;
+				} else {
+					setupStage = true;
+					int newstate = Random.Range (0, 4);
+					switch (newstate) {
+						case 0:
+							//Move
+							state = BossStates.move;
+							break;
+						case 1:
+							//MoveJump
+							state = BossStates.movejump;
+							break;
+						case 2:
+							//Fire
+							state = BossStates.fire;
+							break;
+						case 3:
+							//Fire Jump
+							state = BossStates.firejump;
+							break;
+						case 4:
+							//Fire Move
+							state = BossStates.firemove;
+							break;
+					}
+				}
 		} else {
-			int newstate = Random.Range(0,5);
-			switch (newstate) {
-			case 0:
-				//Move
-				MoveSetup ();
-				break;
-			case 1:
-				//MoveJump
-				break;
-			case 2:
-				//Fire
-				break;
-			case 3:
-				//Fire Jump
-				break;
-			case 4:
-				//Fire Move
-				break;
-			case 5:
-				//Taunt
-				break;
-			}
+			setupStage = false;
+			count = 4;
+			Debug.Log ("IDLE START");
 		}
 	}
 
-	void MoveSetup() {
-		//Move
-		float moveto = player.transform.position.x;
-		if (moveto > transform.position.x) {
-
+	void Move() {
+		if (!setupStage) { 
+			//Move
+			Debug.Log ("Moving");
+			setupStage = true;
+			state = BossStates.idle;
 		} else {
-
+			setupStage = false;
+			
 		}
 
 	}
 
 	void MoveJump() {
-		//MoveJump
+		if (!setupStage) { 
+			//Move & Jump
+			Debug.Log ("Move & Jump");
+			setupStage = true;
+			state = BossStates.idle;
+		} else {
+			setupStage = false;
+			
+		}
 	}
 
 	void Fire() {
-		//Fire
+		if (!setupStage) { 
+			//Fire
+			Debug.Log ("Fire");
+			setupStage = true;
+			state = BossStates.idle;
+		} else {
+			setupStage = false;
+			
+		}
 	}
 
 	void FireJump() {
-		//Fire Jump
+		if (!setupStage) { 
+			//Fire & Jump
+			Debug.Log ("Fire & Jump");
+			setupStage = true;
+			state = BossStates.idle;
+		} else {
+			setupStage = false;
+			
+		}
 	}
 
 	void FireMove() {
-		//Fire Move
+		if (!setupStage) { 
+			//Fire & Move
+			Debug.Log ("Fire & Move");
+			setupStage = true;
+			state = BossStates.idle;
+		} else {
+			setupStage = false;
+			
+		}
 	}
 
 	void Taunt() {
-		//Taunt
+		if (!setupStage) { 
+			//Taunt
+			Debug.Log ("Taunting");
+			setupStage = true;
+			state = BossStates.idle;
+		} else {
+			setupStage = false;
+			
+		}
 	}
 }
