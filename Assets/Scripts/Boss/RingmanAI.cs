@@ -1,30 +1,35 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
-enum BossStates {
-	teleport,
-	teleportmove,	
-	healthwait,
-	taunt,
-	idle,
-	move,
-	jump,
-	movejump,
-	fire,
-	firejump,
-	firemove
+enum BossState {
+	teleportingIn,
+	healthSetup,
+	battletaunt,
+	idleloop,
+	idlesetup,
+	movingsetup,
+	movingloop,
+	firingsetup,
+	firingloop,
+	jumpingsetup,
+	jumpingloop
 }
+
+
 
 public class RingmanAI : MonoBehaviour {
 
 	Animator anim;
 	GameObject player;
-	BossStates state = BossStates.teleport;
+	BossState state = BossState.teleportingIn;
 	Transform bossSpawnTransform;
 	Environment env;
+
+	List<BossState> bossMoves = new List<BossState> () {BossState.movingsetup, BossState.firingsetup, BossState.jumpingsetup};
+
 	float count = 0;
-	float teleportSpeed = 20;
-	bool setupStage = true;
+	float teleportSpeed = 10;
 
 	// Use this for initialization
 	void Start () {
@@ -32,174 +37,102 @@ public class RingmanAI : MonoBehaviour {
 		env = GameObject.FindGameObjectWithTag("Environment").GetComponent<Environment>();
 		player = GameObject.FindGameObjectWithTag("Player");
 		bossSpawnTransform = GameObject.FindGameObjectWithTag("BossSpawn").GetComponent<Transform>();
+		GetComponent<Rigidbody2D>().isKinematic = true;
+		GetComponent<BoxCollider2D>().enabled = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		switch (state) {
-		case BossStates.teleport:
-			Teleport();
+		case BossState.teleportingIn:
+			TeleportIn();
 			break;
-		case BossStates.teleportmove:
-			TeleportMove();
+		case BossState.healthSetup:
+			healthSetup();
 			break;
-		case BossStates.healthwait:
-			Health ();
+		case BossState.idlesetup:
+			IdleSetup();
 			break;
-		case BossStates.idle:
-			Idle();
+		case BossState.idleloop:
+			IdleLoop();
 			break;
-		case BossStates.move:
-			Move();
+		case BossState.movingloop:
+			MoveLoop();
 			break;
-		case BossStates.movejump:
-			MoveJump ();
-			break;
-		case BossStates.fire:
-			Fire ();
-			break;
-		case BossStates.firejump:
-			FireJump ();
-			break;
-		case BossStates.taunt:
-			Taunt ();
+		default:
+			Setup(state);
 			break;
 		}
+
+
 	}
 
-
-
-
-	void Teleport() {
-		GetComponent<Rigidbody2D>().isKinematic = true;
-		GetComponent<BoxCollider2D>().enabled = false;
-		state = BossStates.teleportmove;
-	}
-
-	void TeleportMove() {
-		if (transform.position.y > bossSpawnTransform.position.y +1) {
-			transform.Translate(transform.up * -1 * teleportSpeed * Time.deltaTime);
-		} else {
-			state = BossStates.healthwait;
+	void TeleportIn() {
+		transform.Translate (transform.up * -1 * teleportSpeed * Time.deltaTime);
+		if (transform.position.y < bossSpawnTransform.position.y) {
+			state = BossState.healthSetup;
 			GetComponent<Rigidbody2D>().isKinematic = false;
 			GetComponent<BoxCollider2D>().enabled = true;
 		}
 	}
 
-	void Health() {
+	void healthSetup() {
 		env.bossActive = true;
 		env.bossHealth = 20;
-		state = BossStates.idle;
+		state = BossState.idlesetup;
 	}
 
+	void IdleSetup() {
+		count = 4;
+		state = BossState.idleloop;
+	}
 
-	void Idle() {
-		if (!setupStage) {
-				if (count > 0) {
-					count -= Time.deltaTime;
-				} else {
-					setupStage = true;
-					int newstate = Random.Range (0, 4);
-					switch (newstate) {
-						case 0:
-							//Move
-							state = BossStates.move;
-							break;
-						case 1:
-							//MoveJump
-							state = BossStates.movejump;
-							break;
-						case 2:
-							//Fire
-							state = BossStates.fire;
-							break;
-						case 3:
-							//Fire Jump
-							state = BossStates.firejump;
-							break;
-						case 4:
-							//Fire Move
-							state = BossStates.firemove;
-							break;
-					}
-				}
-		} else {
-			setupStage = false;
-			count = 4;
-			Debug.Log ("IDLE START");
+	void IdleLoop() {
+		count -= Time.deltaTime;
+		if (count <= 0) {
+			state = ChooseAction();
 		}
 	}
 
-	void Move() {
-		if (!setupStage) { 
-			//Move
-			Debug.Log ("Moving");
-			setupStage = true;
-			state = BossStates.idle;
-		} else {
-			setupStage = false;
-			
-		}
-
+	BossState ChooseAction() {
+		return bossMoves[(int) Random.Range(0,bossMoves.Count)];
 	}
 
-	void MoveJump() {
-		if (!setupStage) { 
-			//Move & Jump
-			Debug.Log ("Move & Jump");
-			setupStage = true;
-			state = BossStates.idle;
-		} else {
-			setupStage = false;
-			
-		}
-	}
-
-	void Fire() {
-		if (!setupStage) { 
-			//Fire
-			Debug.Log ("Fire");
-			setupStage = true;
-			state = BossStates.idle;
-		} else {
-			setupStage = false;
-			
+	void Setup( BossState statein) {
+		switch (statein) {
+		case BossState.movingsetup:
+			count = 2;
+			state = BossState.movingloop;
+			break;
+		case BossState.firingsetup:
+			count = 2;
+			state = BossState.firingloop;
+			break;
+		case BossState.jumpingsetup:
+			count = 2;
+			state = BossState.jumpingloop;
+			break;
+		default:
+			Debug.LogError("Holy shit my setup switch broke because it got fed" + statein);
+			break;
 		}
 	}
 
-	void FireJump() {
-		if (!setupStage) { 
-			//Fire & Jump
-			Debug.Log ("Fire & Jump");
-			setupStage = true;
-			state = BossStates.idle;
-		} else {
-			setupStage = false;
-			
+	void MoveLoop() {
+		count -= Time.deltaTime;
+		Debug.Log ("Moving Out");
+		if (count <= 0) {
+			state = BossState.idlesetup;
 		}
 	}
 
-	void FireMove() {
-		if (!setupStage) { 
-			//Fire & Move
-			Debug.Log ("Fire & Move");
-			setupStage = true;
-			state = BossStates.idle;
-		} else {
-			setupStage = false;
-			
-		}
+
+	void FiringLoop() {
+
 	}
 
-	void Taunt() {
-		if (!setupStage) { 
-			//Taunt
-			Debug.Log ("Taunting");
-			setupStage = true;
-			state = BossStates.idle;
-		} else {
-			setupStage = false;
-			
-		}
+
+	void JumpingLoop() {
+
 	}
 }
