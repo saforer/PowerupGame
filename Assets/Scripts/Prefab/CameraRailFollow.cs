@@ -34,7 +34,7 @@ public class CameraRailFollow : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void FixedUpdate () {
+	void Update () {
 		TrackPlayer ();
 		
 		TransferCheck ();

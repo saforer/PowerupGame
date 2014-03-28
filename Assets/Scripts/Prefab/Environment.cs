@@ -9,6 +9,7 @@ public class Environment : MonoBehaviour {
 	public bool machinePaused = false;
 	public bool bossActive = false;
 	public int bossHealth = 0;
+	public BossState bossState;
 
 	// Use this for initialization
 	void Start () {
@@ -26,6 +27,7 @@ public class Environment : MonoBehaviour {
 		}
 		if (bossActive) {
 			GUI.Box (new Rect (Screen.width - 100,0,100,30), "Health :" + bossHealth);
+			GUI.Box (new Rect (Screen.width - 200, Screen.height - 30,200,30), "State :" + bossState);
 		}
 
 		if (playerPaused) {

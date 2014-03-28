@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-enum BossState {
+public enum BossState {
 	teleportingIn,
 	healthSetup,
 	battletaunt,
@@ -26,10 +26,18 @@ public class RingmanAI : MonoBehaviour {
 	Transform bossSpawnTransform;
 	Environment env;
 
+	public GameObject frontBox;
+
 	List<BossState> bossMoves = new List<BossState> () {BossState.movingsetup, BossState.firingsetup, BossState.jumpingsetup};
+
+	Vector2 moveTo;
+	Vector2 mySpot;
+	public float moveSpeed = 10;
 
 	float count = 0;
 	float teleportSpeed = 10;
+
+	bool facingLeft = true;
 
 	// Use this for initialization
 	void Start () {
@@ -40,7 +48,8 @@ public class RingmanAI : MonoBehaviour {
 		GetComponent<Rigidbody2D>().isKinematic = true;
 		GetComponent<BoxCollider2D>().enabled = false;
 	}
-	
+
+
 	// Update is called once per frame
 	void Update () {
 		switch (state) {
@@ -50,20 +59,24 @@ public class RingmanAI : MonoBehaviour {
 		case BossState.healthSetup:
 			healthSetup();
 			break;
-		case BossState.idlesetup:
-			IdleSetup();
-			break;
 		case BossState.idleloop:
 			IdleLoop();
 			break;
 		case BossState.movingloop:
 			MoveLoop();
 			break;
+		case BossState.jumpingloop:
+			JumpingLoop();
+			break;
+		case BossState.firingloop:
+			FiringLoop();
+			break;
 		default:
 			Setup(state);
 			break;
 		}
 
+		env.bossState = state;
 
 	}
 
@@ -82,11 +95,6 @@ public class RingmanAI : MonoBehaviour {
 		state = BossState.idlesetup;
 	}
 
-	void IdleSetup() {
-		count = 4;
-		state = BossState.idleloop;
-	}
-
 	void IdleLoop() {
 		count -= Time.deltaTime;
 		if (count <= 0) {
@@ -100,9 +108,24 @@ public class RingmanAI : MonoBehaviour {
 
 	void Setup( BossState statein) {
 		switch (statein) {
-		case BossState.movingsetup:
+		case BossState.idlesetup:
 			count = 2;
+			state = BossState.idleloop;
+			break;
+		case BossState.movingsetup:
+			count = 1.5f;
 			state = BossState.movingloop;
+			moveTo = player.transform.position;
+			mySpot = transform.position;
+
+			if ((facingLeft) && player.transform.position.x > transform.position.x) {
+				Flip();
+			}
+
+			if ((!facingLeft) && player.transform.position.x < transform.position.x) {
+				Flip();
+			}
+
 			break;
 		case BossState.firingsetup:
 			count = 2;
@@ -113,14 +136,27 @@ public class RingmanAI : MonoBehaviour {
 			state = BossState.jumpingloop;
 			break;
 		default:
-			Debug.LogError("Holy shit my setup switch broke because it got fed" + statein);
+			Debug.LogError("Holy shit my setup switch broke because it got fed " + statein);
 			break;
 		}
 	}
 
 	void MoveLoop() {
 		count -= Time.deltaTime;
-		Debug.Log ("Moving Out");
+		int direction = 0;
+		if (moveTo.x < mySpot.x) {
+			direction = -1;
+
+		}
+
+		if (moveTo.x > mySpot.x) {
+			direction = 1;
+		}
+
+		if (!Check (frontBox)) {
+			transform.Translate (transform.right * direction * moveSpeed * Time.deltaTime);
+		}
+
 		if (count <= 0) {
 			state = BossState.idlesetup;
 		}
@@ -128,11 +164,27 @@ public class RingmanAI : MonoBehaviour {
 
 
 	void FiringLoop() {
-
+		state = BossState.idlesetup;
 	}
 
 
 	void JumpingLoop() {
+		state = BossState.idlesetup;
+	}
 
+	void Flip() {
+		//The boss is facing the opposite direction
+		facingLeft = !facingLeft;
+		
+		//The player's sprite is facing the opposite direction
+		Vector2 theScale = transform.localScale;
+		theScale.x *= -1;
+		transform.localScale = theScale;
+	}
+
+
+	bool Check (GameObject obj) {
+		bool groundIn = obj.GetComponent<GroundTriggerCheck>().groundInBox;
+		return groundIn;
 	}
 }
