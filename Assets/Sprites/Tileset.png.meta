@@ -126,5 +126,23 @@ TextureImporter:
         height: 8
       alignment: 2
       pivot: {x: .5, y: 1}
+    - name: Ladder
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 991
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: LadderTop
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 974
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: .5, y: 0}
   spritePackingTag: 
   userData: 

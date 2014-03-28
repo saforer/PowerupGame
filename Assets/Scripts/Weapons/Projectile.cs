@@ -1,12 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+public enum Weapon {
+	normal
+}
+
 public class Projectile : MonoBehaviour {
 	public bool playerBullet = true;
 	public bool goRight = true;
 	public float bulletSpeed = 30;
 	float direction = 0;
 	int damageAmount = 1;
+	public Weapon thisWeapon;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -30,17 +36,19 @@ public class Projectile : MonoBehaviour {
 		}
 		if (playerBullet) {
 			if (col.CompareTag("Enemy")) {
-				//Hit Enemy
 				col.gameObject.GetComponent<EnemyHealth>().Damage(damageAmount);
+				Destroy(gameObject);
+			} else 
+			if (col.CompareTag("Boss")) {
+				col.gameObject.GetComponent<BossHealth>().Damage(thisWeapon);
 				Destroy(gameObject);
 			}
 		} else {
 			if (col.CompareTag("Player")) {
 				//Hit Player
-				Debug.Log ("Hit Player, TAKE DAMAGE STUPID");
+				col.gameObject.GetComponent<PlayerHealth>().Hurt(damageAmount);
 				Destroy(gameObject);
 			}
 		}
-		
 	}
 }

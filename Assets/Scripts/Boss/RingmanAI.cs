@@ -27,6 +27,8 @@ public class RingmanAI : MonoBehaviour {
 	Environment env;
 
 	public GameObject frontBox;
+	public GameObject Ring;
+	public GameObject Gun;
 
 	List<BossState> bossMoves = new List<BossState> () {BossState.movingsetup, BossState.firingsetup, BossState.jumpingsetup};
 
@@ -109,7 +111,7 @@ public class RingmanAI : MonoBehaviour {
 	void Setup( BossState statein) {
 		switch (statein) {
 		case BossState.idlesetup:
-			count = 2;
+			count = 1;
 			state = BossState.idleloop;
 			break;
 		case BossState.movingsetup:
@@ -128,12 +130,25 @@ public class RingmanAI : MonoBehaviour {
 
 			break;
 		case BossState.firingsetup:
-			count = 2;
+			count = .5f;
 			state = BossState.firingloop;
+
+			moveTo = player.transform.position;
+			mySpot = transform.position;
+
+			if ((facingLeft) && player.transform.position.x > transform.position.x) {
+				Flip();
+			}
+			
+			if ((!facingLeft) && player.transform.position.x < transform.position.x) {
+				Flip();
+			}
+
 			break;
 		case BossState.jumpingsetup:
-			count = 2;
+			count = .5f;
 			state = BossState.jumpingloop;
+			rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x,20);
 			break;
 		default:
 			Debug.LogError("Holy shit my setup switch broke because it got fed " + statein);
@@ -164,11 +179,20 @@ public class RingmanAI : MonoBehaviour {
 
 
 	void FiringLoop() {
-		state = BossState.idlesetup;
+		count -= Time.deltaTime;
+		if (count > 0) {
+			GameObject RingInstance = Instantiate( Ring, Gun.transform.position,Quaternion.identity) as GameObject;
+			if (!facingLeft) {
+				RingInstance.GetComponent<Projectile>().goRight = true;
+			}
+		} else {
+			state = BossState.idlesetup;
+		}
 	}
 
 
 	void JumpingLoop() {
+
 		state = BossState.idlesetup;
 	}
 

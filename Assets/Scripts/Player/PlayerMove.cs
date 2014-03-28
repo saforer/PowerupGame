@@ -4,10 +4,10 @@ using System.Collections;
 public class PlayerMove : MonoBehaviour {
 	[HideInInspector]
 	public bool facingRight = true;
-	float playerSpeed = 15;
-	bool jumping = false;
-	float jumpPower = 20;
+	public float playerSpeed = 15;
+	public float jumpPower = 20;
 
+	bool jumping = false;
 	bool onGround = false;
 	public GameObject groundObject;
 
@@ -88,7 +88,7 @@ public class PlayerMove : MonoBehaviour {
 				jumping = false;
 			}
 
-			if (Input.GetKeyDown(KeyCode.X)) {
+			if (Input.GetKey(KeyCode.X)) {
 				Shoot();
 			}
 		}
