@@ -66,15 +66,7 @@ public class CameraRailFollow : MonoBehaviour {
 		
 		targetX = Mathf.Clamp(targetX, currentRail[0].x, currentRail[1].x);
 		targetY = Mathf.Clamp(targetY, currentRail[0].y, currentRail[1].y);
-		
-		if (Input.GetKeyDown (KeyCode.A) && currentRailIdent < railList.Count-1) {
-			currentRailIdent++;
-		}
-		
-		if (Input.GetKeyDown (KeyCode.S) && currentRailIdent > 0) {
-			currentRailIdent--;
-		}
-		
+
 		transform.position = new Vector3 (targetX, targetY, -10);
 	}
 	
